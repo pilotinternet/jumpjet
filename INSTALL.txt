@@ -1,0 +1,3 @@
+# $Id$
+
+Details coming soon once project is committed to public Git repo
