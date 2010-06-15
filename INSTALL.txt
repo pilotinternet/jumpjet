@@ -1,3 +1,34 @@
 # $Id$
 
-Details coming soon once project is committed to public Git repo
+JumpJet Install Profile for Drupal
+==================================
+
+For full details of this project, please see README.txt, or the project area at:
+http://atc.pilotinternet.com/jumpjet
+
+
+===== INSTALLATION INSTRUCTIONS =====
+
+REQUIREMENTS
+============
+To install JumpJet you need Drush and Drush_make on your server or localhost.
+Information on these projects and instructions to install them can be found at:
+http://drupal.org/project/drush
+http://drupal.org/project/drush_make
+
+We also recommend using JumpJet under Aegir - using JumpJet to create a
+'platform' that Aegir then manages and creates sites on.
+
+INSTALLATION
+============
+Navigate to the directory where you would like to build your JumpJet platform
+and run the following command:
+
+drush make http://github.com/pilotinternet/JumpJet/raw/master/jumpjet_build.make jumpjet
+
+alternately, you can run:
+wget http://github.com/pilotinternet/JumpJet/raw/master/jumpjet_build.make
+drush make jumpjet_build.make jumpjet
+
+
+
