@@ -17,6 +17,6 @@ projects[pressflow][download][url] = git://github.com/bigmack83/pressflow-6.git
 ;=== Now we go get our JumpJet install profile
 projects[jumpjet][type] = "profile"
 projects[jumpjet][download][type] = "git"
-projects[jumpjet][download][url] = "git://github.com/pilotinternet/JumpJet.git"
+projects[jumpjet][download][url] = "git://github.com/pilotinternet/jumpjet.git"
 
 ;=== The install profile contains another makefile which will set everything else up
