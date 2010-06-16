@@ -1,0 +1,9 @@
+# $Id$
+
+JumpJet Install profile
+from Pilot Internet
+
+CHANGELOG
+
+1.0 - 16th June 2010
+Initial public release of JumpJet, previously only used internally at Pilot.
