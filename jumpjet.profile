@@ -183,7 +183,7 @@ function _jumpjet_base_settings() {
   global $base_url;
 
   // Theme related.
-  install_default_theme('fusion_core');
+  install_default_theme('cube');
   install_admin_theme('rubik');
   variable_set('node_admin_theme', TRUE);
 

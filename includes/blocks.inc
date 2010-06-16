@@ -32,10 +32,10 @@ function _jumpjet_setup_blocks(&$context) {
    *
    * install_add_block($module, $delta, $theme, $status, $weight = 0, $region = '', $visibility = 0, $pages = '', $custom = 0, $throttle = 0, $title = '')
    */
-  install_add_block('block', $usefullinks, 'fusion_core', 1, 10, 'sidebar_last', 0, '', 0, 0);
-  install_add_block('block', $usefullinks, 'rubik', 1, 10, 'content', 0, '', 0, 0);
-  install_add_block('block', $pilotcredit, 'fusion_core', 1, 10, 'footer', 0, '', 0, 0);
-  install_add_block('block', $pilotcredit, 'rubik', 1, 10, 'content', 0, '', 0, 0);
+  install_add_block('block', $usefullinks, 'cube', 1, -10, 'right');
+  install_add_block('block', $usefullinks, 'rubik', 1, -10, 'content');
+  install_add_block('block', $pilotcredit, 'fusion_core', 1, 40, 'right');
+  install_add_block('block', $pilotcredit, 'rubik', 1, 40, 'content');
 
   /*
    * Display an existing block in a certain theme
@@ -44,11 +44,11 @@ function _jumpjet_setup_blocks(&$context) {
    */
 
   // The devel blocks - frontend
-  install_set_block('devel', 0, 'fusion_core', 'right', 1);
-  install_set_block('devel', 1, 'fusion_core', 'right', 2);
+  install_set_block('devel', 0, 'cube', 'right', 1);
+  install_set_block('devel', 1, 'cube', 'right', 2);
 
   // The User Login Block - frontend
-  install_set_block('user', 0, 'fusion_core', right, -10);
+  install_set_block('user', 0, 'cube', 'right', -5);
   
   /*
    * Disable an existing block within a theme
@@ -60,11 +60,11 @@ function _jumpjet_setup_blocks(&$context) {
   install_disable_block('user', '0', 'rubik');
 
   // The Navigation menu - both
-  install_disable_block('user', '1', 'fusion_core');
+  install_disable_block('user', '1', 'cube');
   install_disable_block('user', '1', 'rubik');
 
   // The Powered by Drupal block - both
-  install_disable_block('system', '0', 'fusion_core');
+  install_disable_block('system', '0', 'cube');
   install_disable_block('system', '0', 'rubik');
 
 

@@ -72,7 +72,21 @@ function _jumpjet_create_content(&$context) {
    * returns the node object
    */
 
+   // Create a welcome node
+   $title = "Your JumpJet Site Is Go!";
+   $body = "<p>Welcome to your new website, powered by JumpJet.</p><p>JumpJet is an install profile for Drupal, designed to help developers get a new project launched quickly.</p><p>You'll find that many useful common configurations have been made for you already, allowing you to get straight into the custom work for your client.</p><p>JumpJet has also created test users for you, one for each user role. The usernames are the same as the role name, and the password is always 'test'. You can also use the devel module's block to switch between them. It is vital that you change these passwords or disable these users on any publicly available site.</p><p>You can get more information, or help, with JumpJet at http://atc.pilotinternet.com/jumpjet</p>";
+   $properties = array(
+     'type' => 'page',
+     'teaser' => NULL,
+     'log' => '',
+     'created' => '',
+     'format' => FILTER_FORMAT_DEFAULT,
+     'uid' => isset($account) ? $account->uid : 0,
+    );
+  $node = install_create_node($title, $body, $properties);
 
+  // Now we set this node to be the front page
+  variable_set('site_frontpage', 'node/'.$node->nid);
   /*
    * Set a path alias
    *

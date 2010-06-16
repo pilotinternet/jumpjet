@@ -16,7 +16,7 @@ function _jumpjet_initialize_settings(&$context) {
   variable_set('site_mail', 'webadmin@pilotinternet.com');
   
   variable_set('error_level', '1');
-  variable_set('site_frontpage', 'node');
+
 
 
   /* Turn on Clean URLs */
