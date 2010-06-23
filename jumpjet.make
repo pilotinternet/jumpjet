@@ -604,6 +604,13 @@ projects[mailcomment][subdir] = "contrib"
 ; --------------------------------------------------------------------- MIMEMAIL
 projects[mimemail][subdir] = "contrib"
 
+; ------------------------------------------------------------------ MIME DETECT
+projects[mimedetect][subdir] = "contrib"
+
+; ------------------------------------------------------------------ MIME ROUTER
+projects[mimerouter][subdir] = "contrib"
+projects[mimerouter][version] = "1.0"
+
 ; ------------------------------------------------------------ EMAIL NEWSLETTERS
 projects[enewsletter][subdir] = "contrib"
 projects[enewsletter][version] = 0.1
