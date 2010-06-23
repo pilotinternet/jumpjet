@@ -57,9 +57,6 @@ projects[coder][subdir] = "dev"
 ; ------------------------------------------------------------------- SIMPLETEST
 projects[simpletest][subdir] = "dev"
 
-; -------------------------------------------------------------- SECURITY REVIEW
-projects[security_review][subdir] = "dev"
-
 ; --------------------------------------------------------------- MODULE BUILDER
 projects[module_builder][subdir] = "dev"
 
@@ -124,8 +121,6 @@ projects[url_alter][subdir] = "contrib"
 ; --------------------------------------------------------------- PORTER STEMMER
 projects[porterstemmer][subdir] = "contrib"
 
-; -------------------------------------------------------------- SIMILAR ENTRIES
-projects[similar][subdir] = "contrib"
 
 ; ============================================================================== Modules - Admin
 ; ------------------------------------------------------------------- ADMIN MENU
@@ -290,6 +285,7 @@ projects[nodeblock][subdir] = "contrib"
 
 ; --------------------------------------------------------------------- GLOSSIFY
 projects[glossify][subdir] = "contrib"
+; ?? Remove ??
 
 ; -------------------------------------------------------------- SIMPLE HTML DOM
 projects[simplehtmldom][subdir] = "contrib"
@@ -319,11 +315,6 @@ projects[signup][subdir] = "contrib"
 ; --------------------------------------------------------------------- ACTIVITY
 projects[activity][subdir] = "contrib"
 
-; ----------------------------------------------------------------------- AMAZON
-projects[amazon][subdir] = "contrib"
-
-; ----------------------------------------------------------------- AMAZON STORE
-projects[amazon_store][subdir] = "contrib"
 
 ; ============================================================================== Modules - Display Suite
 ; ---------------------------------------------------------------- DISPLAY SUITE
@@ -369,7 +360,7 @@ projects[aef_nodeselect][subdir] = "contrib"
 ; ------------------------------------------------------------ AEF EMBEDDED EDIT
 projects[aef_embedded_edit][subdir] = "contrib"
 
-; --------------------------------------------------------- VIEWS CCK FORTMATTER
+; ---------------------------------------------------------- VIEWS CCK FORMATTER
 projects[aef_views_cck_formatter][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------ TABLE
@@ -418,9 +409,6 @@ projects[markdown][subdir] = "contrib"
 ; --------------------------------------------------------- TWITTER INPUT FILTER
 projects[twitter_input_filter][subdir] = "contrib"
 
-; ----------------------------------------------------------------- GESHI FILTER
-projects[geshifilter][subdir] = "contrib"
-
 ; ----------------------------------------------------------------- EMAIL FILTER
 projects[emailFilter][subdir] = "contrib"
 
@@ -437,25 +425,6 @@ projects[twitter_pull][subdir] = "contrib"
 ; ---------------------------------------------------------------- DAILY TWITTER
 projects[dailytwitter][subdir] = "contrib"
 
-; ============================================================================== Modules - Integration
-; --------------------------------------------------------------------- FACEBOOK
-;projects[fb][subdir] = "contrib"
-
-; --------------------------------------------------------------------- SERVICES
-projects[services][subdir] = "contrib"
-
-; ------------------------------------------------------------------- FEEDBURNER
-projects[feedburner][subdir] = "contrib"
-
-; ============================================================================== Modules - Multi-Domain
-; ---------------------------------------------------------------- DOMAIN ACCESS
-projects[domain][subdir] = "contrib"
-
-; -------------------------------------------------------------- DOMAIN ADVANCED
-projects[domain_adv][subdir] = "contrib"
-
-; ---------------------------------------------------------------- DOMAIN BLOCKS
-projects[domain_blocks][subdir] = "contrib"
 
 ; ============================================================================== Modules - Views Addons
 ; ----------------------------------------------------------------- VIEWS ATTACH
@@ -487,6 +456,9 @@ projects[views_fluid_grid][subdir] = "contrib"
 
 ; --------------------------------------------------------------- VIEWS SHOWCASE
 projects[views_showcase][subdir] = "contrib"
+
+; -------------------------------------------------------------- VIEWS ACCORDION
+projects[views_accordion][subdir] = "contrib"
 
 
 ; ============================================================================== Modules - Solr Search
@@ -530,7 +502,7 @@ projects[captcha_pack][subdir] = "contrib"
 ; ----------------------------------------------------------------- ACCOUNT MENU
 projects[accountmenu][subdir] = "contrib"
 
-; ----------------------------------------------------------------- ACCOUNT MENU
+; ----------------------------------------------------------------- TERMS OF USE
 projects[terms_of_use][subdir] = "contrib"
 
 ; ============================================================================== Modules - Features/Spaces/Context
@@ -575,12 +547,6 @@ projects[noderef_image_helper][subdir] = "contrib"
 ; ------------------------------------------------------------------- LIGHTBOX 2
 projects[lightbox2][subdir] = "contrib"
 
-; -------------------------------------------------------------------- IMAGECROP
-projects[imagecrop][subdir] = "contrib"
-
-; ---------------------------------------------------------- IMAGE RESIZE FILTER
-projects[image_resize_filter][subdir] = "contrib"
-
 ; ------------------------------------------------------------------- IMAGECACHE
 projects[imagecache_actions][subdir] = "contrib"
 
@@ -612,9 +578,6 @@ projects[globalredirect][subdir] = "contrib"
 ; ----------------------------------------------------------------- LINK CHECKER
 projects[linkchecker][subdir] = "contrib"
 
-; ---------------------------------------------------------------- SEO CHECKLIST
-projects[seo_checklist][subdir] = "contrib"
-
 ; ------------------------------------------------------------------- PAGE TITLE
 projects[page_title][subdir] = "contrib"
 
@@ -632,28 +595,11 @@ projects[messaging][subdir] = "contrib"
 ; ---------------------------------------------------------------- NOTIFICATIONS
 projects[notifications][subdir] = "contrib"
 
-; ------------------------------------------------------------------- SIMPLENEWS
-projects[simplenews][version] = 2.x-dev
-projects[simplenews][subdir] = "contrib"
-
-; ---------------------------------------------------------- SIMPLENEWS TEMPLATE
-projects[simplenews_template][subdir] = "contrib"
-
-; ------------------------------------------------------------- SIMPLENEWS ROLES
-projects[simplenews_roles][version] = 2.x-dev
-projects[simplenews_roles][subdir] = "contrib"
-
 ; ------------------------------------------------------------------ MAILHANDLER
 projects[mailhandler][subdir] = "contrib"
 
-; --------------------------------------------------------------------- MAILSAVE
-projects[mailsave][subdir] = "contrib"
-
 ; ------------------------------------------------------------------ MAILCOMMENT
 projects[mailcomment][subdir] = "contrib"
-
-; -------------------------------------------------------------------- MAILCHIMP
-projects[mailchimp][subdir] = "contrib"
 
 ; --------------------------------------------------------------------- MIMEMAIL
 projects[mimemail][subdir] = "contrib"
@@ -792,9 +738,6 @@ projects[hovertip][subdir] = "contrib"
 ; ----------------------------------------------------------------- CSS INJECTOR
 projects[css_injector][subdir] = "contrib"
 
-; ----------------------------------------------------------------- JQUERY MEDIA
-;projects[jquery_media][subdir] = "contrib"
-
 
 ; ============================================================================== Modules - JQuery
 ; ---------------------------------------------------------------- JQUERY UPDATE
@@ -810,19 +753,17 @@ projects[jq][subdir] = "contrib"
 ; ---------------------------------------------------------------- JQUERY PLUGIN
 projects[jquery_plugin][subdir] = "contrib"
 
+; ----------------------------------------------------------------- JQUERY MEDIA
+;projects[jquery_media][subdir] = "contrib"
+
 ; --------------------------------------------------------------- ONBEFOREUPLOAD
 projects[onbeforeunload][subdir] = "contrib"
 
 
 ; ============================================================================== Modules - Theming
-; ------------------------------------------------------------ PANELS EVERYWHERE
-projects[panels_everywhere][subdir] = "contrib"
 
 ; ----------------------------------------------------------- CONDITIONAL STYLES
 projects[conditional_styles][subdir] = "contrib"
-
-; ------------------------------------------------------------------- IE6 UPDATE
-projects[ie6update][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------- LESS
 projects[less][subdir] = "contrib"
@@ -856,12 +797,19 @@ projects[print][subdir] = "contrib"
 projects[blocks404][subdir] = "contrib"
 
 ; ============================================================================== Toolbox
-; ------------------------------------------------------------------------- SEED
-projects[seed][subdir] = "contrib"
-projects[seed][location] = http://code.developmentseed.org/fserver
 
 
-; ============================================================================== Themes - Base =================
+; ============================================================================== FEATURES =================
+
+; Features are coming soon to jumpjet
+
+
+; ============================================================================== THEMES - Base =================
+
+; ----------------------------------------------------------------------- FUSION
+projects[fusion][subdir] = "base"
+projects[fusion][version] = "1.x-dev"
+
 ; -----------------------------------------------------------------ADAPTIVETHEME
 projects[adaptivetheme][subdir] = "base"
 projects[adaptivetheme][version] = "2.x-dev"
@@ -879,11 +827,11 @@ projects[zen_ninesixty][subdir] = "base"
 ; -------------------------------------------------------------------- NINESIXTY
 projects[ninesixty][subdir] = "base"
 
-; ----------------------------------------------------------------------- FUSION
-projects[fusion][subdir] = "base"
-
 ; -------------------------------------------------------------------- BLUEPRINT
 projects[blueprint][subdir] = "base"
+
+; ------------------------------------------------------------------------ CLEAN
+projects[clean][subdir] = "base"
 
 
 ; ============================================================================== Themes - Admin
@@ -892,37 +840,8 @@ projects[rubik][subdir] = "admin"
 projects[rubik][location] = http://code.developmentseed.org/fserver
 
 
+
 ; ============================================================================== Themes - Frontend
-
-projects[acquia_marina][subdir] = "contrib"
-
-projects[pixture_reloaded][subdir] = "contrib"
-projects[wabi][subdir] = "contrib"
-projects[addari][subdir] = "contrib"
-projects[fervens][subdir] = "contrib"
-projects[arthemia][subdir] = "contrib"
-
-projects[fourseasons][subdir] = "contrib"
-projects[fourseasons][version] = "2.x-dev"
-
-projects[blogbuzz][subdir] = "contrib"
-projects[blogbuzz][version] = "2.0"
-
-projects[wilderness][subdir] = "contrib"
-projects[summertime][subdir] = "contrib"
-projects[scruffy][subdir] = "contrib"
-projects[earthen][subdir] = "contrib"
-projects[darkelegance][subdir] = "contrib"
-projects[sandium][subdir] = "contrib"
-projects[mulpo][subdir] = "contrib"
-projects[dropshadow][subdir] = "contrib"
-projects[id-facta][subdir] = "contrib"
-projects[fields_2009][subdir] = "contrib"
-projects[twittish][subdir] = "contrib"
-projects[earthish][subdir] = "contrib"
-
-
-; ============================================================================== Themes - Custom
 
 
 
@@ -943,13 +862,14 @@ libraries[swfobject2][directory_name] = swfobject2
 ;FlowPlayer Library required by SWFTools to play audio/video files
 libraries[flowplayer][download][type] = get
 libraries[flowplayer][download][url] = http://www.opensourceopenminds.com/sites/default/files/releases/flowplayer-package.zip
-libraries[flowplayer][destination] = modules/contrib/swftools/shared/flowplayer3
-
+libraries[flowplayer][destination] = modules/contrib/swftools/shared
+libraries[flowplayer][directory_name] = flowplayer3
 
 ; 1PixelOut Library could be required by SWFTools to play audio files
 libraries[onepixelout][download][type] = get
 libraries[onepixelout][download][url] = http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip
-libraries[onepixelout][destination] = modules/contrib/swftools/shared/1pixelout
+libraries[onepixelout][destination] = modules/contrib/swftools/shared
+libraries[onepixelout][directory_name] = 1pixelout
 
 ; SimplePie RSS parser
 libraries[simplepie][download][type] = get
@@ -987,11 +907,6 @@ libraries[getid3lib][download][url] = http://downloads.sourceforge.net/project/g
 libraries[getid3lib][destination] = libraries
 libraries[getid3lib][directory_name] = getid3
 
-; Geshi Library Required by Geshi Filter
-libraries[geshi][download][type] = get
-libraries[geshi][download][url] = http://downloads.sourceforge.net/project/geshi/geshi/GeSHi%201.0.8.6/geshi-1.0.8.6.tar.gz
-libraries[geshi][destination] = modules/contrib/geshifilter
-libraries[geshi][directory_name] = geshi
 
 
 ; ============================================================================== PATCHES ===============
