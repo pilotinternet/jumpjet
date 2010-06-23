@@ -22,9 +22,16 @@ core = 6.x
 ; ============================================================================== Modules - The A List
 ; -------------------------------------------------------------------------- CCK
 projects[cck][subdir] = "contrib"
+projects[cck][version] = "2.7"
+; ------------------------------ PATCHED
 
 ; ------------------------------------------------------------------------ VIEWS
 projects[views][subdir] = "contrib"
+projects[views][type] = "module"
+projects[views][download][type] = "cvs"
+projects[views][download][module] = "contributions/modules/views"
+projects[views][download][revision] = "DRUPAL-6--3:2010-05-11"
+; ----------------------------- PATCHED
 
 ; ------------------------------------------------------------------------ TOKEN
 projects[token][subdir] = "contrib"
@@ -33,6 +40,7 @@ projects[token][subdir] = "contrib"
 ; ============================================================================== Modules - Dev
 ; ----------------------------------------------------------------------- CTOOLS
 projects[ctools][subdir] = "dev"
+projects[ctools][version] = "1.6"
 
 ; ------------------------------------------------------------------------ DEVEL
 projects[devel][subdir] = "dev"
@@ -220,7 +228,11 @@ projects[filefield_paths][subdir] = "contrib"
 projects[getid3][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------- DATE
-projects[date][subdir] = "contrib" 
+projects[date][subdir] = "contrib"
+projects[date][type] = "module"
+projects[date][download][type] = "cvs"
+projects[date][download][module] = "contributions/modules/date"
+projects[date][download][revision] = "DRUPAL-6--2:2010-05-02"
 
 ; --------------------------------------------------------------- EMBEDDED FIELD
 projects[emfield][subdir] = "contrib" 
@@ -518,19 +530,25 @@ projects[captcha_pack][subdir] = "contrib"
 ; ----------------------------------------------------------------- ACCOUNT MENU
 projects[accountmenu][subdir] = "contrib"
 
+; ----------------------------------------------------------------- ACCOUNT MENU
+projects[terms_of_use][subdir] = "contrib"
 
 ; ============================================================================== Modules - Features/Spaces/Context
 ; --------------------------------------------------------------------- FEATURES
 projects[features][subdir] = "contrib"
+projects[features][version] = "1.0-beta8"
+; --------------------------------------- PATCHED
 
 ; --------------------------------------------------------------- FEATURES EXTRA
 projects[features_extra][subdir] = "contrib"
 
 ; ---------------------------------------------------------------------- CONTEXT
 projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-beta5"
 
 ; ----------------------------------------------------------------------- SPACES
 projects[spaces][subdir] = "contrib"
+projects[spaces][version] = "3.0-beta4"
 
 ; -------------------------------------------------------------------- STRONGARM
 projects[strongarm][subdir] = "contrib"
@@ -974,3 +992,17 @@ libraries[geshi][download][type] = get
 libraries[geshi][download][url] = http://downloads.sourceforge.net/project/geshi/geshi/GeSHi%201.0.8.6/geshi-1.0.8.6.tar.gz
 libraries[geshi][destination] = modules/contrib/geshifilter
 libraries[geshi][directory_name] = geshi
+
+
+; ============================================================================== PATCHES ===============
+; http://drupal.org/node/830730
+projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
+
+; http://drupal.org/node/789556
+projects[features][patch][] = http://drupal.org/files/issues/789556-18_taxonomy.patch
+
+; http://drupal.org/node/792184
+projects[views][patch][] = http://drupal.org/files/issues/views-3-plugin_display-option_defaults-792184.patch
+
+; http://drupal.org/node/789674
+projects[views][patch][] = http://drupal.org/files/issues/789674-3_vocabulary_module.patch
