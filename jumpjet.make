@@ -613,43 +613,33 @@ projects[mimerouter][version] = "1.0"
 
 ; ------------------------------------------------------------ EMAIL NEWSLETTERS
 projects[enewsletter][subdir] = "contrib"
-projects[enewsletter][version] = 0.1
 
 ; -------------------------------------------------- ACCESS PERMISSIONS GROUPING
 projects[access_perm_group][subdir] = "contrib"
-projects[access_perm_group][version] = 0.1
 
 ; ---------------------------------------------------------------------- DELIVER
 projects[deliver][subdir] = "contrib"
-projects[deliver][version] = 0.1
 
 ; ---------------------------------------------------------------- BOUNCED EMAIL
 projects[bounced_email][subdir] = "contrib"
-projects[bounced_email][version] = 0.1
 
 ; -------------------------------------------------------------------- HTML2TEXT
 projects[html2txt][subdir] = "contrib"
-projects[html2txt][version] = 0.1
 
 ; ---------------------------------------------------------------- IDENTITY HASH
 projects[identity_hash][subdir] = "contrib"
-projects[identity_hash][version] = 0.1
 
 ; ------------------------------------------------------------------ PUBLICATION
 projects[publication][subdir] = "contrib"
-projects[publication][version] = 0.1
 
 ; --------------------------------------------------------------------- SCHEDULE
 projects[schedule][subdir] = "contrib"
-projects[schedule][version] = 0.1
 
 ; ------------------------------------------------------------------- SUBSCRIBED
 projects[subscribed][subdir] = "contrib"
-projects[subscribed][version] = 0.1
 
 ; -------------------------------------------------------------------- TEMPLATES
 projects[templates][subdir] = "contrib"
-projects[templates][version] = 0.1
 
 
 ; ============================================================================== Modules - Anti-Spam
