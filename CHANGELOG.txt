@@ -5,5 +5,12 @@ from Pilot Internet
 
 CHANGELOG
 
+1.1 - 23rd June 2010
+Streamlining the makefile a bit to make JumpJet more focused on just delivering
+a platform to develop sites on. So removing frontend themes to leave only base 
+themes, removing some modules that are too specific.
+Impoving the specification of versions for key modules.
+Adding patches to certain key modules.
+
 1.0 - 16th June 2010
 Initial public release of JumpJet, previously only used internally at Pilot.
