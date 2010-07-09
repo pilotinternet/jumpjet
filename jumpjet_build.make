@@ -12,7 +12,7 @@ core = 6.x
 ;==== Here comes Pressflow, comment out the next 3 lines if you prefer standard drupal as above
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.16.77/+download/pressflow-6.16.77.tar.gz"
+projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.17.85/+download/pressflow-6.17.85.tar.gz"
 
 ;=== Now we go get our JumpJet install profile
 projects[jumpjet][type] = "profile"
