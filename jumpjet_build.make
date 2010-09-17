@@ -3,6 +3,8 @@
 ; JumpJet Stub makefile
 ; This is the makefile you should run manually. It will then build the whole platform.
 ; For more information see http://atc.pilotinternet.com/jumpjet
+;
+; http://developmentseed.org/blog/2010/jul/27/drush-make-files-production-drupal-sites
 
 core = 6.x 
 
