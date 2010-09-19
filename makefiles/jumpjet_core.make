@@ -85,7 +85,7 @@ projects[taxonomy_manager][version] = "2.2"
 projects[taxonomy_manager][subdir] = "contrib"
 
 ; ------------------------------------------------------------------ WYSIWYG API
-projects[wysiwyg][download][version] = "2.1"
+projects[wysiwyg][version] = "2.1"
 projects[wysiwyg][subdir] = "contrib"
 
 ; ---------------------------------------------------------------- CKEDITOR LINK
