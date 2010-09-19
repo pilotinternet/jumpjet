@@ -20,5 +20,5 @@ projects[parser_ical][version] = "2.0-alpha2"
 ; SimplePie RSS parser
 libraries[simplepie][download][type] = get
 libraries[simplepie][download][url] = http://simplepie.org/downloads/simplepie_1.2.zip
-libraries[simplepie][destination] = modules/feeds/feeds/libraries
+libraries[simplepie][destination] = modules/contrib/feeds/libraries
 libraries[simplepie][copy][] = simplepie.inc
