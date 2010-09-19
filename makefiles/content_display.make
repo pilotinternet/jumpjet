@@ -1,4 +1,5 @@
 
+; --------------------------------------------------------------- SEMANTIC VIEWS
 projects[semanticviews][version] = "1.1"
 
 ; ----------------------------------------------------------------- VIEWS ATTACH
@@ -44,6 +45,22 @@ projects[views_accordion][subdir] = "contrib"
 ; ------------------------------------------------------------ NODE FORM COLUMNS
 projects[nodeformcols][subdir] = "contrib"
 projects[nodeformcols][version] = "1.6"
+
+pullquote
+1.x-dev 8/9/10
+
+helpinject
+helpinjector
+
+context_block_class
+
+save_draft
+
+deck
+
+fontyourface
+
+sweaver 1.0-alpha3
 
 ; ============================================================================== Modules - Panels
 ; ----------------------------------------------------------------------- PANELS

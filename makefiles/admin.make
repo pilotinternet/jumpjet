@@ -3,14 +3,6 @@
 ; ------------------------------------------------------------- BACKUP / MIGRATE
 projects[backup_migrate][subdir] = "contrib"
 
-; ------------------------------------------------------------------- ADMIN MENU
-projects[admin_menu][subdir] = "contrib"
-
-; ------------------------------------------------------------------------ ADMIN
-projects[admin][subdir] = "contrib"
-
-; ------------------------------------------------------------------- ADMIN ROLE
-projects[adminrole][subdir] = "contrib"
 
 ; -------------------------------------------------------- OVERRIDE NODE OPTIONS
 projects[override_node_options][subdir] = "contrib"
@@ -18,8 +10,6 @@ projects[override_node_options][subdir] = "contrib"
 ; ----------------------------------------------------------- NODE FORM SETTINGS
 projects[nodeformsettings][subdir] = "contrib"
 
-; ---------------------------------------------------------------- ADVANCED HELP
-projects[advanced_help][subdir] = "contrib"
 
 ; -------------------------------------------------------------------------- CMF
 projects[cmf][subdir] = "contrib"
@@ -56,8 +46,7 @@ projects[region_visibility][subdir] = "contrib"
 ; ----------------------------------------------------------------- SUBMIT AGAIN
 projects[submitagain][subdir] = "contrib"
 
-; ------------------------------------------------------------------ MENU EDITOR
-projects[menu_editor][subdir] = "contrib"
+
 
 ; --------------------------------------------------------- SIMPLE MENU SETTINGS
 projects[simple_menu_settings][version] = "1.x-dev"

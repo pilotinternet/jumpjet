@@ -1,14 +1,5 @@
 
-; -------------------------------------------------------------------- IMAGE API
-projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
 
-; ------------------------------------------------------------------- IMAGECACHE
-projects[imagecache][subdir] = "contrib"
-projects[imagecache][version] = "2.0-beta10"
-
-; ------------------------------------------------------------------- IMAGEFIELD
-projects[imagefield][subdir] = "contrib"
 
 ; --------------------------------------------------------- NODEREF IMAGE HELPER
 projects[noderef_image_helper][subdir] = "contrib"

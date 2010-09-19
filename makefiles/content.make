@@ -1,7 +1,15 @@
+; -------------------------------------------------------------------- IMAGE API
+projects[imageapi][subdir] = "contrib"
+projects[imageapi][version] = "1.8"
+
+; ------------------------------------------------------------------- IMAGECACHE
+projects[imagecache][subdir] = "contrib"
+projects[imagecache][version] = "2.0-beta10"
+
+; ------------------------------------------------------------------- IMAGEFIELD
+projects[imagefield][subdir] = "contrib"
 
 
-; -------------------------------------------------------------------- FILEFIELD
-projects[filefield][subdir] = "contrib"
 
 ; ------------------------------------------------------------ FILEFIELD SOURCES
 projects[filefield_sources][subdir] = "contrib"

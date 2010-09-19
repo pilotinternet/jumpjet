@@ -69,12 +69,7 @@ projects[user_alert][version] = "1.4"
 
 
 ; ============================================================================== Modules - JQuery
-; ---------------------------------------------------------------- JQUERY UPDATE
-projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.x-dev"
 
-; -------------------------------------------------------------------- JQUERY UI
-projects[jquery_ui][subdir] = "contrib"
 
 ; --------------------------------------------------------------------------- JQ
 projects[jq][subdir] = "contrib"
@@ -87,9 +82,4 @@ projects[jquery_plugin][subdir] = "contrib"
 projects[onbeforeunload][subdir] = "contrib"
 
 
-; ============================================================================== Libraries =====================
 
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
-libraries[jquery_ui][directory_name] = "jquery.ui"
-libraries[jquery_ui][destination] = modules/contrib/jquery_ui

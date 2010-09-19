@@ -1,7 +1,4 @@
 
-; ----------------------------------------------------------------------- CTOOLS
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = 1.7
 
 ; ----------------------------------------------------------------------- SPACES
 projects[spaces][subdir] = "contrib"
@@ -17,14 +14,9 @@ projects[data][version] = "1.0-alpha13"
 ; ------------------------------------------------------------------------ BOXES
 projects[boxes][subdir] = "contrib"
 
-; -------------------------------------------------------------- TRANSLITERATION
-projects[transliteration][subdir] = "contrib"
-
 ; --------------------------------------------------------------- VISIBILITY API
 projects[visibility_api][subdir] = "contrib"
 
-; ------------------------------------------------------------------- SEARCH 404
-projects[search404][subdir] = "contrib"
 
 ; ------------------------------------------------------------------ THRIFTY 404
 projects[thrifty404][subdir] = "contrib"

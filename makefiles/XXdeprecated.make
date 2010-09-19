@@ -49,3 +49,7 @@ projects[nodereferrer][subdir] = "contrib"
 
 ; ---------------------------------------------------- NODE REFERENCE FORMATTERS
 projects[nodereference_formatters][subdir] = "contrib"
+
+; ------------------------------------------------------------------------ ADMIN
+projects[admin][subdir] = "contrib"
+

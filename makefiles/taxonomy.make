@@ -1,7 +1,6 @@
 
 
-; ------------------------------------------------------------- TAXONOMY MANAGER
-projects[taxonomy_manager][subdir] = "contrib"
+
 
 ; ---------------------------------------------------------------- TAXONOMY HIDE
 projects[taxonomy_hide][subdir] = "contrib"

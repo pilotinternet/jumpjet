@@ -18,10 +18,6 @@ projects[favicon][subdir] = "contrib"
 ; -------------------------------------------------------------- MENU ATTRIBUTES
 projects[menu_attributes][subdir] = "contrib"
 
-; ------------------------------------------------------------------------ SKINR
-projects[skinr][subdir] = "contrib"
-projects[skinr][version] = "1.x-dev"
-
 ; ----------------------------------------------------------- THEME SETTINGS API
 projects[themesettingsapi][subdir] = "contrib"
 
@@ -39,13 +35,13 @@ projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-beta1"
 
 
-; ============================================================================== THEMES
+; ============================================================================== THEMES =============
 
 ; ============================================================================== Themes - Base
 
-; ----------------------------------------------------------------------- FUSION
-projects[fusion][subdir] = "base"
-projects[fusion][version] = "1.x-dev"
+; ------------------------------------------------------------------------ OMEGA
+projects[omega][subdir] = "base"
+projects[omega][version] = "1.0-beta11"
 
 ; -------------------------------------------------------------------------- TAO
 projects[tao][subdir] = "base"
@@ -74,10 +70,6 @@ projects[precision][download][revision] = "DRUPAL-6--1"
 projects[rubik][subdir] = "admin"
 projects[rubik][location] = http://code.developmentseed.org/fserver
 
-; ------------------------------------------------------------------------ SEVEN
-projects[seven][subdir] = "admin"
-projects[seven][version] = "1.0-beta11"
-
 ; -------------------------------------------------------------------- ROOTCANDY
 projects[rootcandy][subdir] = "admin"
 projects[rootcandy][version] = "1.8"
@@ -87,15 +79,3 @@ projects[rootcandy][version] = "1.8"
 
 
 
-; ==============================================================================
-; ============================   P A T C H E S   ===============================
-; ==============================================================================
-
-; http://drupal.org/node/877386
-projects[seven][patch][] = "http://drupal.org/files/issues/877386-fieldset-margin-2.patch"
-
-; http://drupal.org/node/878560
-projects[seven][patch][] = "http://drupal.org/files/issues/878560-add-more-margin-1.patch"
-
-; http://drupal.org/node/874776
-projects[seven][patch][] = "http://drupal.org/files/issues/874776-textfield-width-3.patch"
