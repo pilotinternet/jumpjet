@@ -52,6 +52,3 @@ projects[cck][version] = "2.8"
 projects[variable_changes][version] = "1.0-beta1"
 projects[variable_changes][subdir] = "developer"
 
-; ------------------------------------------------------------------------- DIFF
-projects[diff][version] = "2.1"
-projects[diff][subdir] = "developer"

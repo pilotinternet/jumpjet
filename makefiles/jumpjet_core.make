@@ -52,6 +52,14 @@ projects[transliteration][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][subdir] = "contrib"
 
+; ------------------------------------------------------------------ EXPORTABLES
+projects[exportables][version] = "2.0-beta1"
+projects[exportables][subdir] = "contrib"
+
+; ---------------------------------------------------------------- INPUT FORMATS
+projects[input_formats][subdir] = "contrib"
+projects[input_formats][version] = "1.0-beta6"
+
 ; ---------------------------------------------------------------------- CONTEXT
 projects[context][version] = "3.0"
 projects[context][subdir] = "contrib"
@@ -162,6 +170,10 @@ projects[ucreate][subdir] = "contrib"
 projects[search404][version] = "1.9"
 projects[search404][subdir] = "contrib"
 
+; ------------------------------------------------------------------------- DIFF
+projects[diff][version] = "2.1"
+projects[diff][subdir] = "contrib"
+
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
 projects[seven][subdir] = "admin"
@@ -197,5 +209,5 @@ projects[seven][patch][] = "http://drupal.org/files/issues/878560-add-more-margi
 ; http://drupal.org/node/874776
 projects[seven][patch][] = "http://drupal.org/files/issues/874776-textfield-width-3.patch"
 
-; http://drupal.org/node/624018
-projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-3.patch"
+; http://drupal.org/node/624018#comment-3389060
+projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"

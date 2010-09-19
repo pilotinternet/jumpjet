@@ -17,6 +17,7 @@ projects[conditional_fields][version] = "2.0-beta1"
 
 ; --------------------------------------------------------------- EMBEDDED FIELD
 projects[emfield][subdir] = "contrib"
+projects[emfield][version] = "1.24" 
 
 ; ------------------------------------------------------------------------- LINK
 projects[link][subdir] = "contrib"
