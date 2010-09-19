@@ -85,9 +85,7 @@ projects[taxonomy_manager][version] = "2.2"
 projects[taxonomy_manager][subdir] = "contrib"
 
 ; ------------------------------------------------------------------ WYSIWYG API
-projects[wysiwyg][download][type] = "cvs"
-projects[wysiwyg][download][module] = "contributions/modules/wysiwyg"
-projects[wysiwyg][download][revision] = "DRUPAL-6--3:2010-09-10"
+projects[wysiwyg][download][version] = "2.1"
 projects[wysiwyg][subdir] = "contrib"
 
 ; ---------------------------------------------------------------- CKEDITOR LINK
@@ -105,7 +103,7 @@ projects[better_formats][subdir] = "contrib"
 ; ------------------------------------------------------- CONTEXTUAL ADMIN LINKS
 projects[contextual][download][type] = "cvs"
 projects[contextual][download][module] = "contributions/modules/contextual"
-projects[contextual][download][revision] = "DRUPAL-6--1:2010-08-31"
+projects[contextual][download][revision] = "HEAD:2010-08-31"
 projects[contextual][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------ SKINR
@@ -149,7 +147,9 @@ projects[administerusersbyrole][version] = "1.4"
 projects[administerusersbyrole][subdir] = "contrib"
 
 ; ---------------------------------------------------------------------- CAPTCHA
-projects[captcha][version] = "2.2"
+projects[captcha][download][type] = "cvs"
+projects[captcha][download][module] = "contributions/modules/captcha"
+projects[captcha][download][revision] = "DRUPAL-6--2:2010-07-05"
 projects[captcha][subdir] = "contrib"
 
 ; ----------------------------------------------------------------- CAPTCHA PACK
@@ -198,3 +198,6 @@ projects[seven][patch][] = "http://drupal.org/files/issues/878560-add-more-margi
 
 ; http://drupal.org/node/874776
 projects[seven][patch][] = "http://drupal.org/files/issues/874776-textfield-width-3.patch"
+
+; http://drupal.org/node/624018
+projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-3.patch"
