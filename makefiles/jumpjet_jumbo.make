@@ -30,4 +30,8 @@ includes[jumpjet_utility] = http://github.com/pilotinternet/jumpjet/raw/master/m
 
 ;=== Include legacy modules that will be excluded from future distributions
 ; This is simply for backwards compatibility
-includes[jumpjet_deprecated] = http://github.com/pilotinternet/jumpjet/raw/master/makefiles/bundles/deprecated.make
+;includes[jumpjet_deprecated] = http://github.com/pilotinternet/jumpjet/raw/master/makefiles/bundles/DEPRECATED.make
+
+;=== Include bleeding edge additions that may be included in future distributions
+; NOT recommended. Only to be used for development work on JumpJet
+;includes[jumpjet_deprecated] = http://github.com/pilotinternet/jumpjet/raw/master/makefiles/bundles/FUTURE.make
