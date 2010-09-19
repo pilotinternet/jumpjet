@@ -56,6 +56,7 @@ projects[pullquote][version] = "1.x-dev"
 
 ; ---------------------------------------------------------- CONTEXT BLOCK CLASS
 projects[context_block_class][subdir] = "contrib"
+projects[context_block_class][version] = "1.0-alpha1"
 
 ; --------------------------------------------------------------- FONT YOUR FACE
 projects[fontyourface][subdir] = "contrib"
