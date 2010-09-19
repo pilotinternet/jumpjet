@@ -40,8 +40,7 @@ projects[content_taxonomy][subdir] = "contrib"
 ; --------------------------------------------------------------- AUTO NODETITLE
 projects[auto_nodetitle][subdir] = "contrib"
 
-; ------------------------------------------------------------------------- DIFF
-projects[diff][subdir] = "contrib"
+
 
 ; ------------------------------------------------------------------------- FLAG
 projects[flag][subdir] = "contrib"

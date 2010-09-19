@@ -3,7 +3,6 @@
 ; JumpJet makefile
 ;
 ; JumpJet provides developers with vertical takeoff for new website builds
-; It provides a great
 ;
 ; JumpJet can also be extended to provide your own installation profile.
 
@@ -13,8 +12,6 @@
 core = 6.x
 
 
-; --------------------------------------------------------------------- PROFILER
-projects[profiler][version] = "2.0-beta1"
 
 ; ---------------------------------------------------------- INSTALL PROFILE API
 projects[install_profile_api][version] = "2.1"
@@ -143,6 +140,10 @@ projects[fusion][subdir] = "base"
 projects[fusion][version] = "1.0"
 
 ; ============================================================================== Libraries =====================
+
+; --------------------------------------------------------------------- PROFILER
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta1.tar.gz"
 
 ; JQuery_UI
 libraries[jquery_ui][download][type] = "get"

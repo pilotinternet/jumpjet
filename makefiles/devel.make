@@ -9,6 +9,10 @@
 projects[devel][subdir] = "devel"
 projects[devel][version] = "1.22"
 
+; ----------------------------------------------------------------- DEVEL THEMER
+projects[devel_themer][subdir] = "devel"
+projects[devel_themer][version] = "1.x-dev"
+
 ; ----------------------------------------------------------- DRUPAL FOR FIREBUG
 projects[drupalforfirebug][subdir] = "devel"
 projects[drupalforfirebug][version] = "1.x-dev"
@@ -47,3 +51,9 @@ projects[cck][version] = "2.8"
 ; ----------------------------------------------------------------- TABLE WIZARD
 projects[tw][subdir] = "devel"
 projects[cck][version] = "2.8"
+
+; ------------------------------------------------------------- VARIABLE CHANGES
+projects[variable_changes][version] = "1.0-beta1"
+
+; ------------------------------------------------------------------------- DIFF
+projects[diff][version] = "2.1"
