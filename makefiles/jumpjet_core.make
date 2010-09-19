@@ -101,9 +101,7 @@ projects[better_formats][version] = "1.2"
 projects[better_formats][subdir] = "contrib"
 
 ; ------------------------------------------------------- CONTEXTUAL ADMIN LINKS
-projects[contextual][download][type] = "cvs"
-projects[contextual][download][module] = "contributions/modules/contextual"
-projects[contextual][download][revision] = "HEAD:2010-08-31"
+projects[contextual][version] = "1.0-rc1"
 projects[contextual][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------ SKINR
