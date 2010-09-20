@@ -168,8 +168,17 @@ projects[role_delegation][subdir] = "contrib"
 projects[administerusersbyrole][version] = "1.4"
 projects[administerusersbyrole][subdir] = "contrib"
 
+; -------------------------------------------------------------- PUBLISH CONTENT
+projects[publishcontent][subdir] = "contrib"
+projects[publishcontent][version] = "1.4"
+
 ; ----------------------------------------------------------------- ACCOUNT MENU
 projects[accountmenu][subdir] = "contrib"
+projects[accountmenu][version] = "1.7"
+
+; ------------------------------------------------------------------- ALREADY IN
+projects[already_in][subdir] = "contrib"
+projects[already_in][version] = "1.0"
 
 ; -------------------------------------------------------------- CONTENT PROFILE
 projects[content_profile][subdir] = "contrib"
@@ -186,9 +195,6 @@ projects[captcha][subdir] = "contrib"
 projects[captcha_pack][version] = "1.0-beta3"
 projects[captcha_pack][subdir] = "contrib"
 
-; ---------------------------------------------------------------------- UCREATE
-projects[ucreate][version] = "1.0-beta4"
-projects[ucreate][subdir] = "contrib"
 
 ; ------------------------------------------------------------------- SEARCH 404
 projects[search404][version] = "1.9"
@@ -197,6 +203,41 @@ projects[search404][subdir] = "contrib"
 ; ------------------------------------------------------------------------- DIFF
 projects[diff][version] = "2.1"
 projects[diff][subdir] = "contrib"
+
+; -------------------------------------------------------------------- IMAGE API
+projects[imageapi][subdir] = "contrib"
+projects[imageapi][version] = "1.8"
+
+; ------------------------------------------------------------------- IMAGECACHE
+projects[imagecache][subdir] = "contrib"
+projects[imagecache][version] = "2.0-beta10"
+
+; ------------------------------------------------------------------- IMAGEFIELD
+projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.7"
+
+; -------------------------------------------------------- VIEWS BULK OPERATIONS
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "1.10-beta2"
+
+; ----------------------------------------------------------- NODE FORM SETTINGS
+projects[nodeformsettings][subdir] = "contrib"
+projects[nodeformsettings][version] = "1.5"
+
+; ---------------------------------------------------------------------- TAGGING
+projects[tagging][subdir] = "contrib"
+projects[tagging][version] = "2.4"
+
+; ============================================================================== Engines =======================
+; JumpJet Engines are the features that provide core functionality for JumpJet
+
+; ---------------------------------------------------------- JUMPJET USER ENGINE
+projects[jumpjet_user_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_user_engine][version] = "1.0"
+
+; ------------------------------------------------------- JUMPJET MANAGER ENGINE
+projects[jumpjet_manager_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_manager_engine][version] = "1.0"
 
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN

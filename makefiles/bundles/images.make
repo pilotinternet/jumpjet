@@ -1,17 +1,6 @@
 ; JumpJet
 ; Image Modules
 
-; -------------------------------------------------------------------- IMAGE API
-projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
-
-; ------------------------------------------------------------------- IMAGECACHE
-projects[imagecache][subdir] = "contrib"
-projects[imagecache][version] = "2.0-beta10"
-
-; ------------------------------------------------------------------- IMAGEFIELD
-projects[imagefield][subdir] = "contrib"
-projects[imagefield][version] = "3.7"
 
 ; -------------------------------------------------------------- IMAGEFIELD CROP
 projects[imagefield_crop][subdir] = "contrib"

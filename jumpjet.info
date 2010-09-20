@@ -82,6 +82,7 @@ dependencies[] = diff
 dependencies[] = content
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = views_bulk_operations
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = pathauto
@@ -104,6 +105,7 @@ dependencies[] = better_formats
 dependencies[] = wysiwyg
 dependencies[] = ckeditor_link
 dependencies[] = markdown
+dependencies[] = tagging
 
 ; UI
 dependencies[] = admin
@@ -119,11 +121,11 @@ dependencies[] = search404
 ; Users
 dependencies[] = logintoboggan
 dependencies[] = content_profile
-dependencies[] = ucreate
 dependencies[] = role_delegation
 dependencies[] = administerusersbyrole
 dependencies[] = captcha
 dependencies[] = css_captcha
+dependencies[] = already_in
 
 
 
@@ -131,7 +133,7 @@ dependencies[] = css_captcha
 ;                                  Features
 ; -----------------------------------------------------------------------------
 
-;dependencies[] = example
+dependencies[] = jumpjet_user_engine
 
 
 
@@ -155,8 +157,50 @@ dependencies[] = css_captcha
 users[administrator][uid]    = 1
 users[administrator][name]   = administrator
 users[administrator][mail]   = administrator@example.com
-users[administrator][roles]  = webadmin
+users[administrator][roles]  = administrator
 users[administrator][status] = 1
+
+; Setup the site manager
+users[site manager][uid]    = 2
+users[site manager][name]   = site manager
+users[site manager][mail]   = sitemanager@example.com
+users[site manager][roles]  = site manager
+users[site manager][status] = 1
+
+; Setup the moderator
+users[moderator][uid]    = 3
+users[moderator][name]   = moderator
+users[moderator][mail]   = administrator@example.com
+users[moderator][roles]  = moderator
+users[moderator][status] = 1
+
+; Setup the content editor
+users[content editor][uid]    = 4
+users[content editor][name]   = content editor
+users[content editor][mail]   = contenteditor@example.com
+users[content editor][roles]  = content editor
+users[content editor][status] = 1
+
+; Setup the content author
+users[content author][uid]    = 5
+users[content author][name]   = content author
+users[content author][mail]   = contentauthor@example.com
+users[content author][roles]  = content author
+users[content author][status] = 1
+
+; Setup the authenticated user
+users[authenticated user][uid]    = 6
+users[authenticated user][name]   = authenticated user
+users[authenticated user][mail]   = authenticateduser@example.com
+users[authenticated user][roles]  = authenticated user
+users[authenticated user][status] = 1
+
+; Setup the applicant user
+users[applicant user][uid]    = 7
+users[applicant user][name]   = applicant user
+users[applicant user][mail]   = applicantuser@example.com
+users[applicant user][roles]  = applicant userr
+users[applicant user][status] = 1
 
 
 ; -----------------------------------------------------------------------------
@@ -177,23 +221,15 @@ variables[error_level] = 1
 
 variables[admin_theme] = seven
 
-variables[site_footer] = Jumpjet from Pilot Internet
+variables[site_footer] = "JumpJet Drupal from <a href="http://pilotinternet.com"Pilot Internet</a>"
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 
-; User
-variables[user_register] = 0
-variables[user_email_verification] = 0
-variables[user_mail_status_activated_notify] = 0
-variables[user_pictures] = 0
 
 ; Contact
 variables[contact_default_status] = 0
 variables[contact_form_information] = "You can contact us using the form below..."
 variables[contact_hourly_threshold] = 1
-
-; Image
-variables[image_jpeg_quality] = 90
 
 ; Date and Time
 variables[date_default_timezone] = 0
@@ -203,83 +239,6 @@ variables[configurable_timezones] = 1
 variables[hidetitle_comment] = 1
 variables[comment_anonymous] = 0
 variables[anonymous] = Guest
-
-; LoginToboggan
-variables[logintoboggan_confirm_email_at_registration] = 0
-variables[logintoboggan_immediate_login_on_register] = 1
-variables[logintoboggan_login_successful_message] = 1
-variables[logintoboggan_login_with_email] = 1
-variables[logintoboggan_minimum_password_length] = 6
-variables[logintoboggan_override_destination_parameter] = 0
-variables[logintoboggan_purge_unvalidated_user_interval] = 0
-variables[logintoboggan_redirect_on_confirm] = ""
-variables[logintoboggan_redirect_on_register] = ""
-variables[logintoboggan_login_block_message] = ""
-variables[logintoboggan_login_block_type] = 0
-variables[site_403] = toboggan/denied
-variables[user_mail_welcome_body] = "
-
-    Hello %username,
-
-    Thank you for registering at %site. This email is to confirm your email address.
-
-    IMPORTANT:
-    For full site access, you will need to click on this link or copy and paste it in your browser:
-
-    %login_url
-
-    This will verify your account and log you into the site. In the future you will be able to log in using the username and password that you created during registration.
-
-
-    -- %site team
-
-    "
-
-; CAPTCHA
-variables[css_captcha_allowed_characters] = "aAbBcCdDeEfFgGhHijkKLmMnNpPqQrRsStTuUvVwWxXyYzZ23456789"
-variables[css_captcha_code_length] = 6
-variables[captcha_add_captcha_description] = 1
-variables[captcha_administration_mode] = 0
-variables[captcha_allow_on_admin_pages] = 0
-variables[captcha_default_challenge] = "css_captcha/CSS CAPTCHA"
-variables[captcha_default_validation] = 1
-variables[captcha_description] = "This question helps us protect our users from automated spambots"
-variables[captcha_log_wrong_responses] = 0
-variables[captcha_persistence] = 1
-variables[captcha_placement_map_cache] = "array(
-    'comment_form' =>
-    array(
-      'path' =>
-      array(
-      ),
-      'key' => NULL,
-      'weight' => 18.9,
-    ),
-    'contact_mail_page' =>
-    array(
-      'path' =>
-      array(
-      ),
-      'key' => 'submit',
-      'weight' => NULL,
-    ),
-    'user_register' =>
-    array(
-      'path' =>
-      array(
-      ),
-      'key' => 'submit',
-      'weight' => 30,
-    ),
-    'user_pass' =>
-    array(
-      'path' =>
-      array(
-      ),
-      'key' => 'submit',
-      'weight' => 30,
-    ),
-  )"
 
 ; Search404
 variables[site_404] = search404
@@ -317,11 +276,6 @@ variables[pathauto_user_pattern] = "users/[uid]/[user-raw]"
 variables[pathauto_taxonomy_pattern] = ""
 variables[pathauto_taxonomy_supportsfeeds] = ""
 variables[pathauto_blog_pattern] = "blogs/[user-raw]"
-
-; Page content type
-variables[comment_page] = 0
-variables[theme_settings][toggle_node_info_page] = FALSE
-
 
 
 ; -----------------------------------------------------------------------------

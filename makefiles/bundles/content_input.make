@@ -27,6 +27,10 @@ projects[insert][version] = "1.0-beta6"
 projects[deck][subdir] = "contrib"
 projects[deck][version] = "1.0"
 
+; --------------------------------------------------------------- COMMENT UPLOAD
+projects[comment_upload][subdir] = "contrib"
+projects[comment_upload][version] = "1.0-alpha5"
+
 ; ---------------------------------------------------------------- ITWEAK UPLOAD
 projects[itweak_upload][subdir] = "contrib"
 projects[itweak_upload][type] = "module"
@@ -44,9 +48,6 @@ projects[revisioning][version] = "3.11"
 projects[workflow][subdir] = "contrib"
 projects[workflow][version] = "1.4"
 
-; --------------------------------------------------------------- COMMENT UPLOAD
-projects[comment_upload][subdir] = "contrib"
-projects[comment_upload][version] = "1.0-alpha5"
-
 ; ------------------------------------------------------------------- SAVE DRAFT
 projects[save_draft][subdir] = "contrib"
+projects[save_draft][version] = "1.5"

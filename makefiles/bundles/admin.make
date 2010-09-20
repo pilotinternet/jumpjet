@@ -8,9 +8,6 @@ projects[admin_menu][subdir] = "contrib"
 ; -------------------------------------------------------- OVERRIDE NODE OPTIONS
 projects[override_node_options][subdir] = "contrib"
 
-; ----------------------------------------------------------- NODE FORM SETTINGS
-projects[nodeformsettings][subdir] = "contrib"
-
 ; -------------------------------------------------------------------------- CMF
 projects[cmf][subdir] = "contrib"
 
@@ -23,8 +20,9 @@ projects[workflow][subdir] = "contrib"
 ; ---------------------------------------------------------------- INACTIVE USER
 projects[inactive_user][subdir] = "contrib"
 
-; -------------------------------------------------------------- PUBLISH CONTENT
-projects[publishcontent][subdir] = "contrib"
+; ----------------------------------------------------------------- CONTENT LOCK
+projects[content_lock][subdir] = "contrib"
+projects[content_lock][version] = "2.1"
 
 ; --------------------------------------------------------------------- GUIDANCE
 projects[guidance][subdir] = "contrib"

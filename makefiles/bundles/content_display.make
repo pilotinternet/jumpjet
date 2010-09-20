@@ -17,9 +17,6 @@ projects[premium_views_field][subdir] = "contrib"
 ; -------------------------------------------------------------- VIEWS SLIDESHOW
 projects[views_slideshow][subdir] = "contrib"
 
-; -------------------------------------------------------- VIEWS BULK OPERATIONS
-projects[views_bulk_operations][subdir] = "contrib"
-
 ; ---------------------------------------------------------------- VIEWS ROTATOR
 projects[views_rotator][subdir] = "contrib"
 
