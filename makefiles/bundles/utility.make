@@ -74,9 +74,13 @@ projects[simplehtmldom][version] = "1.11"
 projects[module_grants][subdir] = "contrib"
 projects[module_grants][version] = "3.6"
 
-; ---------------------------------------------------------------- AHAH HELPER
+; ------------------------------------------------------------------ AHAH HELPER
 projects[ahah_helper][subdir] = "contrib"
 projects[ahah_helper][version] = "2.1"
+
+; -------------------------------------------------------------------- PERMALINK
+projects[permalink][subdir] = "contrib"
+projects[permalink][version] = "1.6"
 
 ; ============================================================================== Modules - Mobile tools
 ; ----------------------------------------------------------------- MOBILE TOOLS

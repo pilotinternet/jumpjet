@@ -1,6 +1,10 @@
 ; Jumpjet
 ; Admin modules
 
+; ------------------------------------------------------------------- ADMIN MENU
+projects[admin_menu][version] = "1.6"
+projects[admin_menu][subdir] = "contrib"
+
 ; -------------------------------------------------------- OVERRIDE NODE OPTIONS
 projects[override_node_options][subdir] = "contrib"
 
@@ -15,9 +19,6 @@ projects[customerror][subdir] = "contrib"
 
 ; --------------------------------------------------------------------- WORKFLOW
 projects[workflow][subdir] = "contrib"
-
-; -------------------------------------------------------------- ROLE DELEGATION
-projects[role_delegation][subdir] = "contrib"
 
 ; ---------------------------------------------------------------- INACTIVE USER
 projects[inactive_user][subdir] = "contrib"

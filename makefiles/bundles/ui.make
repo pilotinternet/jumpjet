@@ -41,6 +41,7 @@ projects[automodal][version] = "1.x-dev"
 projects[menu_block][download][type] = "cvs"
 projects[menu_block][download][module] = "contributions/modules/menu_block"
 projects[menu_block][download][revision] = "DRUPAL-6--2:2010-09-08"
+projects[menu_block][subdir] = "contrib"
 
 ; ------------------------------------------------------------ CUSTOM FORMATTERS
 projects[custom_formatters][subdir] = "contrib"
@@ -66,7 +67,7 @@ projects[user_alert][subdir] = "contrib"
 projects[user_alert][version] = "1.4"
 
 ; ---------------------------------------------------------------------- SWEAVER
-projects[sweaver][version] = 1.0-alpha3
+projects[sweaver][version] = 1.0-beta1
 projects[sweaver][subdir] = "contrib"
 
 ; --------------------------------------------------------------------------- JQ
@@ -80,3 +81,12 @@ projects[onbeforeunload][subdir] = "contrib"
 
 
 
+; ============================================================================== PATCHES
+
+; - Patches for CTools required by Sweaver beta1
+
+; http://drupal.org/node/916796
+projects[ctools][patch][] = http://drupal.org/files/issues/_ctools_css_disassemble_declaration.patch
+
+; http://drupal.org/node/916532
+projects[ctools][patch][] = http://drupal.org/files/issues/ctools_css_disassemble.patch

@@ -27,6 +27,7 @@ projects[views][download][type] = "cvs"
 projects[views][download][module] = "contributions/modules/views"
 projects[views][download][revision] = "DRUPAL-6--3:2010-09-03"
 projects[views][subdir] = "contrib"
+; -- Awaiting release of 6.x-3.0-alpha4 or a beta
 
 ; ------------------------------------------------------------------------ TOKEN
 projects[token][version] = "1.14"
@@ -72,10 +73,6 @@ projects[strongarm][subdir] = "contrib"
 projects[filefield][version] = "3.7"
 projects[filefield][subdir] = "contrib"
 
-; ------------------------------------------------------------------- ADMIN MENU
-projects[admin_menu][version] = "1.6"
-projects[admin_menu][subdir] = "contrib"
-
 ; ------------------------------------------------------------------- ADMIN ROLE
 projects[adminrole][version] = "1.3"
 projects[adminrole][subdir] = "contrib"
@@ -83,6 +80,17 @@ projects[adminrole][subdir] = "contrib"
 ; ---------------------------------------------------------------- ADVANCED HELP
 projects[advanced_help][version] = "1.2"
 projects[advanced_help][subdir] = "contrib"
+
+; ------------------------------------------------------------------------ ADMIN
+projects[admin][version] = "2.0"
+projects[admin][subdir] = "contrib"
+
+; ---------------------------------------------------------------------- TOOLBAR
+projects[toolbar][download][type] = "cvs"
+projects[toolbar][download][module] = "contributions/modules/toolbar"
+projects[toolbar][download][revision] = "DRUPAL-6--2:2010-09-09"
+projects[toolbar][subdir] = "contrib"
+; -- Awaiting release of 6.x-2.2
 
 ; ------------------------------------------------------------------ MENU EDITOR
 projects[menu_editor][version] = "2.1"
@@ -117,18 +125,21 @@ projects[skinr][download][type] = "cvs"
 projects[skinr][download][module] = "contributions/modules/skinr"
 projects[skinr][download][revision] = "DRUPAL-6--1:2010-09-08"
 projects[skinr][subdir] = "contrib"
+; -- Awaiting release of 6.x-1.6 or stable release of 6.x-2.x
 
 ; ---------------------------------------------------------------- VERTICAL TABS
 projects[vertical_tabs][download][type] = "cvs"
 projects[vertical_tabs][download][module] = "contributions/modules/vertical_tabs"
 projects[vertical_tabs][download][revision] = "DRUPAL-6--1:2010-03-21"
 projects[vertical_tabs][subdir] = "contrib"
+; -- Awaiting release of 6.x-1.0 or 6.x-1.0-rc2
 
 ; ---------------------------------------------------------------- JQUERY UPDATE
 projects[jquery_update][download][type] = "cvs"
 projects[jquery_update][download][module] = "contributions/modules/jquery_update"
 projects[jquery_update][download][revision] = "DRUPAL-6--2:2010-09-09"
 projects[jquery_update][subdir] = "contrib"
+; -- Always using dev version to get latest Jquery - but want a specific version
 
 ; -------------------------------------------------------------------- JQUERY UI
 projects[jquery_ui][version] = "1.4"
@@ -139,6 +150,11 @@ projects[backup_migrate][download][type] = "cvs"
 projects[backup_migrate][download][module] = "contributions/modules/backup_migrate"
 projects[backup_migrate][download][revision] = "DRUPAL-6--2:2010-09-13"
 projects[backup_migrate][subdir] = "contrib"
+; -- Awaiting release of 6.x-2.3
+
+; --------------------------------------------------------------- AES ENCRYPTION
+projects[aes][version] = "1.4"
+projects[aes][subdir] = "contrib"
 
 ; --------------------------------------------------------------- LOGIN TOBOGGAN
 projects[logintoboggan][version] = "1.7"
@@ -152,11 +168,19 @@ projects[role_delegation][subdir] = "contrib"
 projects[administerusersbyrole][version] = "1.4"
 projects[administerusersbyrole][subdir] = "contrib"
 
+; ----------------------------------------------------------------- ACCOUNT MENU
+projects[accountmenu][subdir] = "contrib"
+
+; -------------------------------------------------------------- CONTENT PROFILE
+projects[content_profile][subdir] = "contrib"
+projects[content_profile][version] = "1.0"
+
 ; ---------------------------------------------------------------------- CAPTCHA
 projects[captcha][download][type] = "cvs"
 projects[captcha][download][module] = "contributions/modules/captcha"
 projects[captcha][download][revision] = "DRUPAL-6--2:2010-07-05"
 projects[captcha][subdir] = "contrib"
+; -- Awaiting release of 6.x-2.3
 
 ; ----------------------------------------------------------------- CAPTCHA PACK
 projects[captcha_pack][version] = "1.0-beta3"
@@ -191,6 +215,12 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = modules/contrib/jquery_ui
+
+; PHP Secure Communications Library (phpseclib) for AES Encryption module
+libraries[phpseclib][download][type] = "get"
+libraries[phpseclib][download][url] = "http://downloads.sourceforge.net/project/phpseclib/phpseclib0.2.1a.zip"
+libraries[phpseclib][directory_name] = "phpseclib"
+libraries[phpseclib][destination] = modules/contrib/aes
 
 ; CKEditor Wysiwyg
 libraries[ckeditorlib][download][type] = get

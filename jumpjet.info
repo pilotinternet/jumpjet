@@ -91,24 +91,23 @@ dependencies[] = backup_migrate
 dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = exportables
+dependencies[] = boxes
 
 ; CCK
 dependencies[] = text
 dependencies[] = number
-dependencies[] = fieldgroup
 dependencies[] = filefield
-dependencies[] = optionwidgets
-dependencies[] = nodereference
 
 ; Content Input
-dependencies[] = input_format
+dependencies[] = input_formats
 dependencies[] = better_formats
 dependencies[] = wysiwyg
 dependencies[] = ckeditor_link
 dependencies[] = markdown
 
 ; UI
-dependencies[] = admin_menu
+dependencies[] = admin
+dependencies[] = toolbar
 dependencies[] = advanced_help
 dependencies[] = vertical_tabs
 dependencies[] = menu_editor
@@ -119,6 +118,7 @@ dependencies[] = search404
 
 ; Users
 dependencies[] = logintoboggan
+dependencies[] = content_profile
 dependencies[] = ucreate
 dependencies[] = role_delegation
 dependencies[] = administerusersbyrole
@@ -175,6 +175,8 @@ variables[site_mail] = testing@example.com
 
 variables[error_level] = 1
 
+variables[admin_theme] = seven
+
 variables[site_footer] = Jumpjet from Pilot Internet
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
@@ -215,7 +217,7 @@ variables[logintoboggan_redirect_on_register] = ""
 variables[logintoboggan_login_block_message] = ""
 variables[logintoboggan_login_block_type] = 0
 variables[site_403] = toboggan/denied
-variables[user_mail_welcom_body] = "
+variables[user_mail_welcome_body] = "
 
     Hello %username,
 

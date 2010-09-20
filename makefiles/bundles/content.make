@@ -14,6 +14,7 @@ projects[date][version] = "2.6"
 
 ; ----------------------------------------------------------- CONDITIONAL FIELDS
 projects[conditional_fields][version] = "2.0-beta1"
+projects[conditional_fields][subdir] = "contrib"
 
 ; --------------------------------------------------------------- EMBEDDED FIELD
 projects[emfield][subdir] = "contrib"
