@@ -12,8 +12,7 @@ projects[purl][subdir] = "contrib"
 projects[data][subdir] = "contrib"
 projects[data][version] = "1.0-alpha13"
 
-; ------------------------------------------------------------------------ BOXES
-projects[boxes][subdir] = "contrib"
+
 
 ; --------------------------------------------------------------- VISIBILITY API
 projects[visibility_api][subdir] = "contrib"

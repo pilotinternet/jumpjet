@@ -69,6 +69,10 @@ projects[context][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
+; ------------------------------------------------------------------------ BOXES
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.0"
+
 ; -------------------------------------------------------------------- FILEFIELD
 projects[filefield][version] = "3.7"
 projects[filefield][subdir] = "contrib"
