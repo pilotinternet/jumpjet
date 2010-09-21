@@ -87,6 +87,7 @@ dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = pathauto
 dependencies[] = backup_migrate
+dependencies[] = devel
 
 ; Features
 dependencies[] = features
@@ -134,6 +135,7 @@ dependencies[] = already_in
 ; -----------------------------------------------------------------------------
 
 dependencies[] = jumpjet_user_engine
+dependencies[] = jumpjet_manager_engine
 
 
 
@@ -221,7 +223,7 @@ variables[error_level] = 1
 
 variables[admin_theme] = seven
 
-variables[site_footer] = "JumpJet Drupal from <a href="http://pilotinternet.com"Pilot Internet</a>"
+variables[site_footer] = JumpJet Drupal from Pilot Internet
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 

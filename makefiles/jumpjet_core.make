@@ -232,6 +232,10 @@ projects[nodeformsettings][version] = "1.5"
 projects[tagging][subdir] = "contrib"
 projects[tagging][version] = "2.4"
 
+; ------------------------------------------------------------------------ DEVEL
+projects[devel][subdir] = "developer"
+projects[devel][version] = "1.22"
+
 ; ============================================================================== Engines =======================
 ; JumpJet Engines are the features that provide core functionality for JumpJet
 

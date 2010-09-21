@@ -1,9 +1,7 @@
 ; JumpJet
 ; Devel Modules
 
-; ------------------------------------------------------------------------ DEVEL
-projects[devel][subdir] = "developer"
-projects[devel][version] = "1.22"
+
 
 ; ----------------------------------------------------------------- DEVEL THEMER
 projects[devel_themer][subdir] = "developer"
