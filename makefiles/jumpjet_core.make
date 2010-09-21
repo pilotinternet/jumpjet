@@ -238,10 +238,12 @@ projects[tagging][version] = "2.4"
 ; ---------------------------------------------------------- JUMPJET USER ENGINE
 projects[jumpjet_user_engine][location] = http://code.pilotinternet.com/fserver
 projects[jumpjet_user_engine][version] = "1.0"
+projects[jumpjet_user_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET MANAGER ENGINE
 projects[jumpjet_manager_engine][location] = http://code.pilotinternet.com/fserver
 projects[jumpjet_manager_engine][version] = "1.0"
+projects[jumpjet_manager_engine][subdir] = "features/engines"
 
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
