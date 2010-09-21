@@ -286,3 +286,7 @@ projects[seven][patch][] = "http://drupal.org/files/issues/874776-textfield-widt
 
 ; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
+
+; Boxes patch to run properly on Pressflow
+; http://drupal.org/node/887260
+projects[boxes][patch][] = http://drupal.org/files/issues/887260.patch

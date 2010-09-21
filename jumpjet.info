@@ -92,7 +92,7 @@ dependencies[] = backup_migrate
 dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = exportables
-;dependencies[] = boxes
+dependencies[] = boxes
 
 ; CCK
 dependencies[] = text
