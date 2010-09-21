@@ -137,17 +137,13 @@ dependencies[] = already_in
 dependencies[] = jumpjet_user_engine
 dependencies[] = jumpjet_manager_engine
 dependencies[] = jumpjet_pages_engine
+dependencies[] = jumpjet_wysiwyg_engine
 
 
 ; -----------------------------------------------------------------------------
 ;                                   Users
 ; -----------------------------------------------------------------------------
-; Keep in mind when adding users like this that you are proceeding at your own
-; risk. You are writing *in plain text* certain data that could compromise your
-; site. The password field you specify for any user should be an md5 hashed
-; password. I guess that gives you at least one measure of security.
-;
-; One other thing to note here is that there's this (handy) quirk in Drupal's
+; One thing to note here is that there's this (handy) quirk in Drupal's
 ; install API in that you can bypass the configuration form during installation
 ; (where you'd normally set up user 1 credentials and the site name and such).
 ; To do this you need to specify credentials for user 1 and also specify the

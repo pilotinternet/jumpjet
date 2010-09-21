@@ -254,6 +254,11 @@ projects[jumpjet_pages_engine][location] = http://code.pilotinternet.com/fserver
 projects[jumpjet_pages_engine][version] = "1.0"
 projects[jumpjet_pages_engine][subdir] = "features/engines"
 
+; ------------------------------------------------------- JUMPJET WYSIWYG ENGINE
+projects[jumpjet_wysiwyg_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_wysiwyg_engine][version] = "1.0"
+projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
+
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
 projects[seven][subdir] = "admin"
