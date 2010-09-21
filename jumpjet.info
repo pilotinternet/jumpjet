@@ -136,8 +136,7 @@ dependencies[] = already_in
 
 dependencies[] = jumpjet_user_engine
 dependencies[] = jumpjet_manager_engine
-
-
+dependencies[] = jumpjet_pages_engine
 
 
 ; -----------------------------------------------------------------------------
@@ -283,7 +282,7 @@ variables[pathauto_blog_pattern] = "blogs/[user-raw]"
 ; -----------------------------------------------------------------------------
 ;                                    Nodes
 ; -----------------------------------------------------------------------------
-nodes[front][type] = page
+nodes[front][type] = jumpjet_sitepage
 nodes[front][title] = Welcome to Your New JumpJet Site
 nodes[front][uid] = 2
 nodes[front][body] = "<p>Your new site is installed, and ready to customise. It has been setup using the JumpJet install profile for Drupal, which means that many common configurations have already been made.</p>"
