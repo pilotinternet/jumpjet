@@ -70,8 +70,8 @@ projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------ BOXES
-projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0"
+;projects[boxes][subdir] = "contrib"
+;projects[boxes][version] = "1.0"
 
 ; -------------------------------------------------------------------- FILEFIELD
 projects[filefield][version] = "3.7"
@@ -305,4 +305,4 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with
 
 ; Boxes patch to run properly on Pressflow
 ; http://drupal.org/node/887260
-projects[boxes][patch][] = http://drupal.org/files/issues/887260.patch
+; projects[boxes][patch][] = http://drupal.org/files/issues/887260.patch
