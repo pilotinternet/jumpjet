@@ -30,8 +30,8 @@ projects[imagecache_actions][download][revision] = "DRUPAL-6--2:2010-08-12"
 projects[imagecache_actions][subdir] = "contrib"
 
 ; ------------------------------------------------------------------- SMART CROP
-projects[imagecache_actions][subdir] = "contrib"
-projects[imagecache_actions][version] = "1.0-beta1"
+projects[smartcrop][subdir] = "contrib"
+projects[smartcrop][version] = "1.0-beta1"
 
 ; ------------------------------------------------------------ IMAGEFIELD TOKENS
 projects[imagefield_tokens][subdir] = "contrib"

@@ -249,15 +249,20 @@ projects[jumpjet_manager_engine][location] = http://code.pilotinternet.com/fserv
 projects[jumpjet_manager_engine][version] = "1.0"
 projects[jumpjet_manager_engine][subdir] = "features/engines"
 
-; --------------------------------------------------------- JUMPJET PAGES ENGINE
-projects[jumpjet_pages_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_pages_engine][version] = "1.0"
-projects[jumpjet_pages_engine][subdir] = "features/engines"
-
 ; ------------------------------------------------------- JUMPJET WYSIWYG ENGINE
 projects[jumpjet_wysiwyg_engine][location] = http://code.pilotinternet.com/fserver
 projects[jumpjet_wysiwyg_engine][version] = "1.0"
 projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
+
+; --------------------------------------------------------- JUMPJET IMAGE ENGINE
+projects[jumpjet_image_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_image_engine][version] = "1.0"
+projects[jumpjet_image_engine][subdir] = "features/engines"
+
+; --------------------------------------------------------- JUMPJET PAGES ENGINE
+projects[jumpjet_pages_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_pages_engine][version] = "1.0"
+projects[jumpjet_pages_engine][subdir] = "features/engines"
 
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
