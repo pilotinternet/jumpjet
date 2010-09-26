@@ -151,12 +151,11 @@ dependencies[] = jumpjet_wysiwyg_engine
 ; -----------------------------------------------------------------------------
 
 ; Setup the administrator
-; *** This creates an error in aehir so commented out
-;users[administrator][uid]    = 1
-;users[administrator][name]   = administrator
-;users[administrator][mail]   = administrator@example.com
-;users[administrator][roles]  = administrator
-;users[administrator][status] = 1
+users[administrator][uid]    = 1
+users[administrator][name]   = administrator
+users[administrator][mail]   = administrator@example.com
+users[administrator][roles]  = administrator
+users[administrator][status] = 1
 
 ; Setup the site manager
 users[site manager][uid]    = 2

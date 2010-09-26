@@ -4,6 +4,7 @@
 
 ; ------------------------------------------------------------ FILEFIELD SOURCES
 projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.2"
 
 ; -------------------------------------------------------------- FILEFIELD PATHS
 projects[filefield_paths][subdir] = "contrib"
@@ -78,8 +79,24 @@ projects[webformblock][subdir] = "contrib"
 projects[nodequeue][subdir] = "contrib"
 
 ; --------------------------------------------------------------------- CALENDAR
+projects[calendar][download][type] = "cvs"
+projects[calendar][download][module] = "contributions/modules/views"
+projects[calendar][download][revision] = "DRUPAL-6--2:2010-08-22"
 projects[calendar][subdir] = "contrib"
+; -- Awaiting release of 6.x-2.3
+
+; ---------------------------------------------------------------- LITE CALENDAR
+projects[litecal][subdir] = "contrib"
+projects[litecal][location] = "http://code.developmentseed.org/fserver"
+projects[litecal][version] = "1.0-alpha4"
 
 ; ----------------------------------------------------------------------- SIGNUP
 projects[signup][subdir] = "contrib"
 
+; ---------------------------------------------------------- CCK FIELDGROUP TABS
+projects[cck_fieldgroup_tabs][subdir] = "contrib"
+projects[cck_fieldgroup_tabs][version] = "1.2"
+
+; -------------------------------------------------------------------------- FAQ
+projects[faq][subdir] = "contrib"
+projects[faq][version] = "1.11"

@@ -35,6 +35,10 @@ projects[blocks404][subdir] = "contrib"
 projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-beta1"
 
+; ----------------------------------------------------------------------- CRAYON
+projects[crayon][subdir] = "contrib"
+projects[crayon][version] = "1.0-beta2"
+
 
 ; ============================================================================== THEMES =============
 

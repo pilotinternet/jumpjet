@@ -60,3 +60,7 @@ projects[subscribed][subdir] = "contrib"
 
 ; -------------------------------------------------------------------- TEMPLATES
 projects[templates][subdir] = "contrib"
+
+; ------------------------------------------------------------------- PRIVATEMSG
+projects[privatemsg][subdir] = "contrib"
+projects[privatemsg][version] = "1.3"

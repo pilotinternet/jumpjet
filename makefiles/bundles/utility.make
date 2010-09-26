@@ -58,10 +58,7 @@ projects[uuid][version] = 1.0-beta2
 
 ; -------------------------------------------------------------------- CHART API
 projects[chart][subdir] = "contrib"
-projects[chart][type] = "module"
-projects[chart][download][type] = "cvs"
-projects[chart][download][module] = "contributions/modules/chart"
-projects[chart][download][revision] = "HEAD:2010-02-01"
+projects[chart][version] = "1.x-dev"
 
 ; -------------------------------------------------------------- SIMPLE HTML DOM
 projects[simplehtmldom][subdir] = "contrib"
@@ -78,6 +75,18 @@ projects[ahah_helper][version] = "2.1"
 ; -------------------------------------------------------------------- PERMALINK
 projects[permalink][subdir] = "contrib"
 projects[permalink][version] = "1.6"
+
+; --------------------------------------------------------------------- AUTOLOAD
+projects[autoload][subdir] = "contrib"
+projects[autoload][version] = "1.4"
+
+; ------------------------------------------- DATABASE LAYER THE NEXT GENERATION
+projects[dbtng][subdir] = "contrib"
+projects[dbtng][version] = "1.0-alpha6"
+
+; ---------------------------------------------------------------- JOB SCHEDULER
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "1.0-beta3"
 
 ; ============================================================================== Modules - Mobile tools
 ; ----------------------------------------------------------------- MOBILE TOOLS

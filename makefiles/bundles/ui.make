@@ -16,6 +16,7 @@ projects[menutrails][subdir] = "contrib"
 
 ; ------------------------------------------------------------------------- TABS
 projects[tabs][subdir] = "contrib"
+projects[tabs][version] = "1.3"
 
 ; ------------------------------------------------------------------ CUSTOM PAGE
 projects[custompage][subdir] = "contrib"
@@ -79,7 +80,9 @@ projects[jquery_plugin][subdir] = "contrib"
 ; --------------------------------------------------------------- ONBEFOREUPLOAD
 projects[onbeforeunload][subdir] = "contrib"
 
-
+; ------------------------------------------------------------------ SMART MENUS
+projects[smart_menus][subdir] = "contrib"
+projects[smart_menus][version] = 1.7
 
 ; ============================================================================== PATCHES
 

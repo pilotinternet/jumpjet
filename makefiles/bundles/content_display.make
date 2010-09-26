@@ -17,6 +17,10 @@ projects[premium_views_field][subdir] = "contrib"
 ; -------------------------------------------------------------- VIEWS SLIDESHOW
 projects[views_slideshow][subdir] = "contrib"
 
+; ------------------------------------------------------------------- VIEWS TABS
+projects[views_tabs][subdir] = "contrib"
+projects[views_tabs][version] = "1.0-beta1"
+
 ; ---------------------------------------------------------------- VIEWS ROTATOR
 projects[views_rotator][subdir] = "contrib"
 
