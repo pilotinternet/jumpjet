@@ -213,8 +213,11 @@ projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.8"
 
 ; ------------------------------------------------------------------- IMAGECACHE
+projects[imagecache][download][type] = "cvs"
+projects[imagecache][download][module] = "contributions/modules/imagecache"
+projects[imagecache][download][revision] = "DRUPAL-6--2:2010-05-26"
 projects[imagecache][subdir] = "contrib"
-projects[imagecache][version] = "2.0-beta10"
+; -- Awaiting release of 2.0-beta11 , release candidate or a release
 
 ; ------------------------------------------------------------------- IMAGEFIELD
 projects[imagefield][subdir] = "contrib"
