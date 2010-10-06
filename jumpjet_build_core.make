@@ -7,6 +7,7 @@
 ; JumpJet core - this builds just the simple JumpJet platform with only the
 ; essential modules and themes.
 
+api = 3
 core = 6.x 
 
 ;=== We'll use pressflow as our core, so have commented out standard drupal
