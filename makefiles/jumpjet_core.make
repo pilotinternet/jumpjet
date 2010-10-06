@@ -8,7 +8,7 @@
 
 ; by PILOT INTERNET - www.pilotinternet.com
 
-
+api = 3
 core = 6.x
 
 ;=== First we go get our JumpJet install profile ===============================
