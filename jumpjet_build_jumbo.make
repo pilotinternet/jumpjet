@@ -9,6 +9,8 @@
 ; there for you to use. A great starting point for a new site build, or an easy to
 ; manage local dev platform.
 
+api = 2
+
 core = 6.x
 
 ;=== We'll use pressflow as our core, so have commented out standard drupal. You can swap this round.

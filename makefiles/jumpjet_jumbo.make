@@ -6,6 +6,8 @@
 ;
 ; by PILOT INTERNET - www.pilotinternet.com
 
+api = 2
+
 ;=== First we build the core platform with profile and required modules
 includes[jumpjet_core] = http://github.com/pilotinternet/jumpjet/raw/master/makefiles/jumpjet_core.make
 

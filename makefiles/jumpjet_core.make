@@ -259,7 +259,7 @@ projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET IMAGE ENGINE
 projects[jumpjet_image_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_image_engine][version] = "1.0"
+projects[jumpjet_image_engine][version] = "1.1"
 projects[jumpjet_image_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET PAGES ENGINE
