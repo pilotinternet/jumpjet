@@ -239,6 +239,23 @@ projects[tagging][version] = "2.4"
 projects[devel][subdir] = "developer"
 projects[devel][version] = "1.22"
 
+; ---------------------------------------------------------- IMAGE CACHE ACTIONS
+projects[imagecache_actions][download][type] = "cvs"
+projects[imagecache_actions][download][module] = "contributions/modules/imagecache_actions"
+projects[imagecache_actions][download][revision] = "DRUPAL-6--2:2010-08-12"
+projects[imagecache_actions][subdir] = "contrib"
+
+; --------------------------------------------------- IMAGECACHE JAVASCRIPT CROP
+projects[imagecrop][download][type] = "cvs"
+projects[imagecrop][download][module] = "contributions/modules/imagecrop"
+projects[imagecrop][download][revision] = "DRUPAL-6--1:2010-10-11"
+projects[imagecrop][subdir] = "contrib"
+
+; ------------------------------------------------------------------- SMART CROP
+projects[smartcrop][subdir] = "contrib"
+projects[smartcrop][version] = "1.0-beta1"
+
+
 ; ============================================================================== Engines =======================
 ; JumpJet Engines are the features that provide core functionality for JumpJet
 
@@ -259,13 +276,28 @@ projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET IMAGE ENGINE
 projects[jumpjet_image_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_image_engine][version] = "1.1"
+projects[jumpjet_image_engine][version] = "1.0"
 projects[jumpjet_image_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET PAGES ENGINE
 projects[jumpjet_pages_engine][location] = http://code.pilotinternet.com/fserver
 projects[jumpjet_pages_engine][version] = "1.0"
 projects[jumpjet_pages_engine][subdir] = "features/engines"
+
+; ------------------------------------------------------- JUMPJET TAGGING ENGINE
+projects[jumpjet_tagging_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_tagging_engine][version] = "1.0"
+projects[jumpjet_tagging_engine][subdir] = "features/engines"
+
+; ---------------------------------------------------------- JUMPJET NEWS ENGINE
+projects[jumpjet_news_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_news_engine][version] = "1.0"
+projects[jumpjet_news_engine][subdir] = "features/engines"
+
+; ------------------------------------------------------- JUMPJET ARTICLE ENGINE
+projects[jumpjet_article_engine][location] = http://code.pilotinternet.com/fserver
+projects[jumpjet_article_engine][version] = "1.0"
+projects[jumpjet_article_engine][subdir] = "features/engines"
 
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
