@@ -19,10 +19,6 @@ projects[twitter_input_filter][subdir] = "contrib"
 ; ----------------------------------------------------------------- EMAIL FILTER
 projects[emailFilter][subdir] = "contrib"
 
-; ----------------------------------------------------------------------- INSERT
-projects[insert][subdir] = "contrib"
-projects[insert][version] = "1.0-beta6"
-
 ; ------------------------------------------------------------------------- DECK
 projects[deck][subdir] = "contrib"
 projects[deck][version] = "1.0"
