@@ -255,7 +255,42 @@ projects[imagecrop][subdir] = "contrib"
 projects[smartcrop][subdir] = "contrib"
 projects[smartcrop][version] = "1.0-beta1"
 
+; ---------------------------------------------------------------- DISPLAY SUITE
+projects[ds][subdir] = "contrib"
+projects[ds][version] = "1.3"
 
+; ---------------------------------------------------------------- NODE DISPLAYS
+projects[nd][subdir] = "contrib"
+projects[nd][version] = "2.3"
+	 		
+; -------------------------------------------------------- NODE DISPLAYS CONTRIB
+projects[nd_contrib][subdir] = "contrib"
+projects[nd_contrib][version] = "2.3"
+	
+; ------------------------------------------------------------- COMMENT DISPLAYS
+projects[cd][subdir] = "contrib"
+projects[cd][version] = "1.3"
+ 	
+; ---------------------------------------------------------------- USER DISPLAYS
+projects[ud][subdir] = "contrib"
+projects[ud][version] = "1.2"
+
+; --------------------------------------------------------------- VIEWS DISPLAYS
+projects[vd][subdir] = "contrib"
+projects[vd][version] = "1.2"
+
+; ---------------------------------------------------------- IMAGEFIELD EXTENDED
+projects[imagefield_extended][subdir] = "contrib"
+projects[imagefield_extended][version] = "4.0-alpha2"
+
+; ------------------------------------------------------------ IMAGEFIELD TOKENS
+projects[imagefield_tokens][subdir] = "contrib"
+projects[imagecache_profiles][version] = "1.3"
+
+; ----------------------------------------------------------------------- INSERT
+projects[insert][subdir] = "contrib"
+projects[insert][version] = "1.0-beta6"
+	
 ; ============================================================================== Engines =======================
 ; JumpJet Engines are the features that provide core functionality for JumpJet
 
