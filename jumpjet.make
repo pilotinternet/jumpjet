@@ -8,7 +8,7 @@
 
 ; by PILOT INTERNET - www.pilotinternet.com
 
-
+api = 2
 core = 6.x
 
 
