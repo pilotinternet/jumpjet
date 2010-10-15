@@ -76,24 +76,5 @@ projects[panels_tabs][subdir] = "contrib"
 projects[panels_everywhere][version] = "1.1"
 projects[panels_everywhere][subdir] = "contrib"
 
-; ============================================================================== Modules - Display Suite
-; ---------------------------------------------------------------- DISPLAY SUITE
-projects[ds][subdir] = "contrib"
-
-; ---------------------------------------------------------------- NODE DISPLAYS
-projects[nd][subdir] = "contrib"
-
-; -------------------------------------------------------- NODE DISPLAYS CONTRIB
-projects[nd_contrib][subdir] = "contrib"
-
-; ------------------------------------------------------------- COMMENT DISPLAYS
-projects[cd][subdir] = "contrib"
-
-; ---------------------------------------------------------------- USER DISPLAYS
-projects[ud][subdir] = "contrib"
-
-; --------------------------------------------------------------- VIEWS DISPLAYS
-projects[vd][subdir] = "contrib"
-
 ; --------------------------------------------------------------- NODES IN BLOCK
 projects[nodesinblock][subdir] = "contrib"
