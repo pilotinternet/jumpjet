@@ -290,7 +290,11 @@ projects[imagecache_profiles][version] = "1.3"
 ; ----------------------------------------------------------------------- INSERT
 projects[insert][subdir] = "contrib"
 projects[insert][version] = "1.0-beta6"
-	
+
+; -------------------------------------------------------------- FILEFIELD PATHS
+projects[filefield_paths][subdir] = "contrib"
+projects[filefield_paths][version] = "1.4"
+
 ; ============================================================================== Engines =======================
 ; JumpJet Engines are the features that provide core functionality for JumpJet
 
