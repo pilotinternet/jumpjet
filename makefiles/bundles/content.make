@@ -6,9 +6,6 @@
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
 
-; -------------------------------------------------------------- FILEFIELD PATHS
-projects[filefield_paths][subdir] = "contrib"
-
 ; ------------------------------------------------------------------------- DATE
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
