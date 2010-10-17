@@ -25,6 +25,10 @@ projects[regcode][version] = "2.4"
 projects[apply_for_role][subdir] = "contrib"
 projects[apply_for_role][version] = "1.9"
 
+; ------------------------------------------------------------------ ROLE EXPIRE
+projects[role_expire][subdir] = "contrib"
+projects[role_expire][version] = "1.9"
+
 ; ---------------------------------------------------- EMAIL CHANGE CONFIRMATION
 projects[email_confirm][subdir] = "contrib"
 projects[email_confirm][version] = "1.4"
@@ -44,3 +48,19 @@ projects[terms_of_use][subdir] = "contrib"
 ; ------------------------------------------------------------ BAN AND UNPUBLISH
 projects[ban_unpublish][subdir] = "contrib"
 projects[ban_unpublish][version] = 1.1
+
+; ------------------------------------------------------------- AUTO ASSIGN ROLE
+projects[autoassignrole][download][type] = "cvs"
+projects[autoassignrole][download][module] = "contributions/modules/autoassignrole"
+projects[autoassignrole][download][revision] = "DRUPAL-6--1:2010-09-09"
+projects[autoassignrole][subdir] = "contrib"
+; -- Awaiting release of 6.x-1.3 or stable 2.0
+
+; ---------------------------------------------------------------- ROLE WATCHDOG
+projects[role_watchdog][subdir] = "contrib"
+
+; ----------------------------------------------------------- ROLE CHANGE NOTIFY
+projects[role_change_notify][subdir] = "contrib"
+
+; ------------------------------------------------------ AUTO ASSIGN ROLE BLOCKS
+projects[autoassignroleblocks][subdir] = "contrib"
