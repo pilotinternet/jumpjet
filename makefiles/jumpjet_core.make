@@ -301,50 +301,51 @@ projects[filefield_paths][version] = "1.4"
 
 ; ---------------------------------------------------------- JUMPJET USER ENGINE
 projects[jumpjet_user_engine][type] = "module"
-projects[jumpjet_user_engine][type] = "git"
-projects[jumpjet_user_engine][url] = "git://github.com/pilotinternet/jumpjet_user_engine.git"
+projects[jumpjet_user_engine][download][type] = "git"
+projects[jumpjet_user_engine][download][url] = "git://github.com/pilotinternet/jumpjet_user_engine.git"
 projects[jumpjet_user_engine][subdir] = "features/engines"
+projects[jumpjet_user_engine][revision] = 6.x-1.0
 
 ; ------------------------------------------------------- JUMPJET MANAGER ENGINE
 projects[jumpjet_manager_engine][type] = "module"
-projects[jumpjet_manager_engine][type] = "git"
-projects[jumpjet_manager_engine][url] = "git://github.com/pilotinternet/jumpjet_manager_engine.git"
+projects[jumpjet_manager_engine][download][type] = "git"
+projects[jumpjet_manager_engine][download][url] = "git://github.com/pilotinternet/jumpjet_manager_engine.git"
 projects[jumpjet_manager_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET WYSIWYG ENGINE
 projects[jumpjet_wysiwyg_engine][type] = "module"
-projects[jumpjet_wysiwyg_engine][type] = "git"
-projects[jumpjet_wysiwyg_engine][url] = "git://github.com/pilotinternet/jumpjet_wysiwyg_engine.git"
+projects[jumpjet_wysiwyg_engine][download][type] = "git"
+projects[jumpjet_wysiwyg_engine][download][url] = "git://github.com/pilotinternet/jumpjet_wysiwyg_engine.git"
 projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET IMAGE ENGINE
 projects[jumpjet_image_engine][type] = "module"
-projects[jumpjet_image_engine][type] = "git"
-projects[jumpjet_image_engine][url] = "git://github.com/pilotinternet/jumpjet_image_engine.git"
+projects[jumpjet_image_engine][download][type] = "git"
+projects[jumpjet_image_engine][download][url] = "git://github.com/pilotinternet/jumpjet_image_engine.git"
 projects[jumpjet_image_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET PAGES ENGINE
 projects[jumpjet_pages_engine][type] = "module"
-projects[jumpjet_pages_engine][type] = "git"
-projects[jumpjet_pages_engine][url] = "git://github.com/pilotinternet/jumpjet_pages_engine.git"
+projects[jumpjet_pages_engine][download][type] = "git"
+projects[jumpjet_pages_engine][download][url] = "git://github.com/pilotinternet/jumpjet_pages_engine.git"
 projects[jumpjet_pages_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET TAGGING ENGINE
 projects[jumpjet_tagging_engine][type] = "module"
-projects[jumpjet_tagging_engine][type] = "git"
-projects[jumpjet_tagging_engine][url] = "git://github.com/pilotinternet/jumpjet_tagging_engine.git"
+projects[jumpjet_tagging_engine][download][type] = "git"
+projects[jumpjet_tagging_engine][download][url] = "git://github.com/pilotinternet/jumpjet_tagging_engine.git"
 projects[jumpjet_tagging_engine][subdir] = "features/engines"
 
 ; ---------------------------------------------------------- JUMPJET NEWS ENGINE
 projects[jumpjet_news_engine][type] = "module"
-projects[jumpjet_news_engine][type] = "git"
-projects[jumpjet_news_engine][url] = "git://github.com/pilotinternet/jumpjet_news_engine.git"
+projects[jumpjet_news_engine][download][type] = "git"
+projects[jumpjet_news_engine][download][url] = "git://github.com/pilotinternet/jumpjet_news_engine.git"
 projects[jumpjet_news_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET ARTICLE ENGINE
 projects[jumpjet_article_engine][type] = "module"
-projects[jumpjet_article_engine][type] = "git"
-projects[jumpjet_article_engine][url] = "git://github.com/pilotinternet/jumpjet_article_engine.git"
+projects[jumpjet_article_engine][download][type] = "git"
+projects[jumpjet_article_engine][download][url] = "git://github.com/pilotinternet/jumpjet_article_engine.git"
 projects[jumpjet_article_engine][subdir] = "features/engines"
 
 ; ============================================================================== Themes ========================
