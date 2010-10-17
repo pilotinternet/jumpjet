@@ -298,50 +298,59 @@ projects[filefield_paths][version] = "1.4"
 ; ============================================================================== Engines =======================
 ; JumpJet Engines are the features that provide core functionality for JumpJet
 
+
 ; ---------------------------------------------------------- JUMPJET USER ENGINE
-projects[jumpjet_user_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_user_engine][version] = "1.0"
+projects[jumpjet_user_engine][type] = "module"
+projects[jumpjet_user_engine][type] = "git"
+projects[jumpjet_user_engine][url] = "git://github.com/pilotinternet/jumpjet_user_engine.git"
 projects[jumpjet_user_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET MANAGER ENGINE
-projects[jumpjet_manager_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_manager_engine][version] = "1.0"
+projects[jumpjet_manager_engine][type] = "module"
+projects[jumpjet_manager_engine][type] = "git"
+projects[jumpjet_manager_engine][url] = "git://github.com/pilotinternet/jumpjet_manager_engine.git"
 projects[jumpjet_manager_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET WYSIWYG ENGINE
-projects[jumpjet_wysiwyg_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_wysiwyg_engine][version] = "1.0"
+projects[jumpjet_wysiwyg_engine][type] = "module"
+projects[jumpjet_wysiwyg_engine][type] = "git"
+projects[jumpjet_wysiwyg_engine][url] = "git://github.com/pilotinternet/jumpjet_wysiwyg_engine.git"
 projects[jumpjet_wysiwyg_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET IMAGE ENGINE
-projects[jumpjet_image_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_image_engine][version] = "1.0"
+projects[jumpjet_image_engine][type] = "module"
+projects[jumpjet_image_engine][type] = "git"
+projects[jumpjet_image_engine][url] = "git://github.com/pilotinternet/jumpjet_image_engine.git"
 projects[jumpjet_image_engine][subdir] = "features/engines"
 
 ; --------------------------------------------------------- JUMPJET PAGES ENGINE
-projects[jumpjet_pages_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_pages_engine][version] = "1.0"
+projects[jumpjet_pages_engine][type] = "module"
+projects[jumpjet_pages_engine][type] = "git"
+projects[jumpjet_pages_engine][url] = "git://github.com/pilotinternet/jumpjet_pages_engine.git"
 projects[jumpjet_pages_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET TAGGING ENGINE
-projects[jumpjet_tagging_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_tagging_engine][version] = "1.0"
+projects[jumpjet_tagging_engine][type] = "module"
+projects[jumpjet_tagging_engine][type] = "git"
+projects[jumpjet_tagging_engine][url] = "git://github.com/pilotinternet/jumpjet_tagging_engine.git"
 projects[jumpjet_tagging_engine][subdir] = "features/engines"
 
 ; ---------------------------------------------------------- JUMPJET NEWS ENGINE
-projects[jumpjet_news_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_news_engine][version] = "1.0"
+projects[jumpjet_news_engine][type] = "module"
+projects[jumpjet_news_engine][type] = "git"
+projects[jumpjet_news_engine][url] = "git://github.com/pilotinternet/jumpjet_news_engine.git"
 projects[jumpjet_news_engine][subdir] = "features/engines"
 
 ; ------------------------------------------------------- JUMPJET ARTICLE ENGINE
-projects[jumpjet_article_engine][location] = http://code.pilotinternet.com/fserver
-projects[jumpjet_article_engine][version] = "1.0"
+projects[jumpjet_article_engine][type] = "module"
+projects[jumpjet_article_engine][type] = "git"
+projects[jumpjet_article_engine][url] = "git://github.com/pilotinternet/jumpjet_article_engine.git"
 projects[jumpjet_article_engine][subdir] = "features/engines"
 
 ; ============================================================================== Themes ========================
 ; ------------------------------------------------------------------------ SEVEN
 projects[seven][subdir] = "admin"
-projects[seven][version] = "1.0-beta11"
+projects[seven][version] = "1.0-beta13"
 
 ; ----------------------------------------------------------------------- FUSION
 projects[fusion][subdir] = "base"
@@ -370,14 +379,7 @@ libraries[ckeditorlib][directory_name] = ckeditor
 
 ; ============================================================================== Patches =======================
 
-; http://drupal.org/node/877386
-projects[seven][patch][] = "http://drupal.org/files/issues/877386-fieldset-margin-2.patch"
 
-; http://drupal.org/node/878560
-projects[seven][patch][] = "http://drupal.org/files/issues/878560-add-more-margin-1.patch"
-
-; http://drupal.org/node/874776
-projects[seven][patch][] = "http://drupal.org/files/issues/874776-textfield-width-3.patch"
 
 ; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
