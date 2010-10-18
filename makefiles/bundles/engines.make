@@ -5,4 +5,5 @@
 projects[jumpjet_membership_engine][type] = "module"
 projects[jumpjet_membership_engine][download][type] = "git"
 projects[jumpjet_membership_engine][download][url] = "git://github.com/pilotinternet/jumpjet_membership_engine.git"
+projects[jumpjet_membership_engine][download][tag] = 6.x-1.0
 projects[jumpjet_membership_engine][subdir] = "features/engines"
