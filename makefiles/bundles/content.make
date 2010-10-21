@@ -77,7 +77,7 @@ projects[nodequeue][subdir] = "contrib"
 
 ; --------------------------------------------------------------------- CALENDAR
 projects[calendar][download][type] = "cvs"
-projects[calendar][download][module] = "contributions/modules/views"
+projects[calendar][download][module] = "contributions/modules/calendar"
 projects[calendar][download][revision] = "DRUPAL-6--2:2010-08-22"
 projects[calendar][subdir] = "contrib"
 ; -- Awaiting release of 6.x-2.3
