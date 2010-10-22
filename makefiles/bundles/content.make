@@ -82,11 +82,6 @@ projects[calendar][download][revision] = "DRUPAL-6--2:2010-08-22"
 projects[calendar][subdir] = "contrib"
 ; -- Awaiting release of 6.x-2.3
 
-; ---------------------------------------------------------------- LITE CALENDAR
-projects[litecal][subdir] = "contrib"
-projects[litecal][location] = "http://code.developmentseed.org/fserver"
-projects[litecal][version] = "1.0-alpha4"
-
 ; ----------------------------------------------------------------------- SIGNUP
 projects[signup][subdir] = "contrib"
 
