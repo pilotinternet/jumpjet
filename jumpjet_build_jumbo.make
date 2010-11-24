@@ -22,7 +22,7 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 ;=== Now we build the full platform with required modules
-includes[jumpjet_jumbo] = http://github.com/pilotinternet/jumpjet/raw/master/makefiles/jumpjet_jumbo.make
+includes[jumpjet_jumbo] = https://github.com/pilotinternet/jumpjet/raw/master/makefiles/jumpjet_jumbo.make
 
 ;=== Want to override anything in the jumpjet makefiles? Include a custom makefile with overrides here:
 ;includes[jumpjet_custom] = http://example.com/your_makefile.make
