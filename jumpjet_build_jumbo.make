@@ -13,13 +13,13 @@ api = 2
 
 core = 6.x
 
-;=== We'll use pressflow as our core, so have commented out standard drupal. You can swap this round.
-;projects[] = "drupal"
+;=== We'll use drupal basic core rather than Pressflow. You can swap this round.
+projects[] = "drupal"
 
-;==== Here comes Pressflow, comment out the next 3 lines if you prefer standard drupal as above
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "file"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.22.104/+download/pressflow-6.22.104.tar.gz"
+;==== Here comes Pressflow, uncomment the next 3 lines if you prefer it
+;projects[pressflow][type] = "core"
+;projects[pressflow][download][type] = "file"
+;projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.22.104/+download/pressflow-6.22.104.tar.gz"
 
 ;=== Now we build the full platform with required modules
 includes[jumpjet_jumbo] = https://github.com/pilotinternet/jumpjet/raw/master/makefiles/jumpjet_jumbo.make
