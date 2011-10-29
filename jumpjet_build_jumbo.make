@@ -14,7 +14,10 @@ api = 2
 core = 6.x
 
 ;=== We'll use drupal basic core rather than Pressflow. You can swap this round.
-projects[] = "drupal"
+;projects[] = "drupal"
+
+; -- Temp workaround - see http://drupal.org/node/1077916#comment-4201688
+projects[drupal][type] = core
 
 ;==== Here comes Pressflow, uncomment the next 3 lines if you prefer it
 ;projects[pressflow][type] = "core"
