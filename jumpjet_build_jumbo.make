@@ -18,7 +18,7 @@ core = 6.x
 
 ;==== Here comes Pressflow, comment out the next 3 lines if you prefer standard drupal as above
 projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
+projects[pressflow][download][type] = "file"
 projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.22.104/+download/pressflow-6.22.104.tar.gz"
 
 ;=== Now we build the full platform with required modules
